@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4090085612</fileChecksum>
+  <configuration>
+    <name>TFT-LCD</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Src\stm32f4xx_hal_msp.c</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f429xx.s</file>
+      <file>$PROJ_DIR$\..\Src\main.c</file>
+      <file>$PROJ_DIR$\..\Src\stm32f4xx_it.c</file>
+      <file>$PROJ_DIR$\..\Src\WindowDLG.c</file>
+      <file>$PROJ_DIR$\..\Src\WindowDLG_2.c</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Config\GUIConf.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Config\GUI_X.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Config\GUIConf_STM32F429DISCO.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Config\LCDConf_STM32F429DISCO.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_AntialiasedText.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Automotive.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_BarGraph.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Bitmap.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_ColorBar.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Conf.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\FRAMEWIN.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_BarGraph.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Treeview.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\WM.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\WIDGET.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\ICONVIEW.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\WM_GUI.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\WM_Intern.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\LISTVIEW.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\TREEVIEW.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\PROGBAR.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Exe\TFT-LCD.hex</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_flash_ramfunc.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\SLIDER.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GRAPH.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\TEXT.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GUI_Version.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\BUTTON.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_ll_fmc.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\LCD.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_dma.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_dsi.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_dsi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_ltdc_ex.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_flash.o</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fmc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rcc_ex.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\Inc\mxconstants.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUI_X.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\TFT-LCD.pbd</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_tim.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_flash.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_dma_ex.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_TransparentDialog.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_flash_ex.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Start.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\WindowDLG.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_pwr_ex.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_ltdc.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\WindowDLG.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rtc_ex.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\system_stm32f4xx.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\CALENDAR.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_msp.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_spi.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_dma.o</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\MULTIPAGE.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\DROPDOWN.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_flash_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\SCROLLBAR.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\DIALOG.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_ltdc.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_ltdc_ex.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_tim.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_tim_ex.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\LCD_Protected.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GUI_Debug.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_pwr_ex.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Conf.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\HEADER.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Conf.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Resource.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_AntialiasedText.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Treeview.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Automotive.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Automotive.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_VScreen.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Listview.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_IconView.o</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Bitmap.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\LCDConf_STM32F429DISCO.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\Inc\stm32f4xx_it.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIConf_STM32F429DISCO.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUI_X.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_spi.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\List\TFT-LCD.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_ZoomAndRotate.o</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GUI.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GUIDRV_Lin.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc.h</file>
+      <file>$PROJ_DIR$\..\Inc\stm32f4xx_hal_conf.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Exe\TFT-LCD.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rtc.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_RadialMenu.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_ImageFlow.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_IconView.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Listview.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_TransparentDialog.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Graph.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_ZoomAndRotate.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Intro.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Speed.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_flash_ramfunc.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Speedometer.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_VScreen.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GUI_Type.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_WashingMachine.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Start.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_it.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_tim_ex.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_ll_fmc.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Skinning.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Fading.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_ColorBar.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Cursor.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\CHOOSECOLOR.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\Global.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rtc_ex.o</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\CHOOSEFILE.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_sdram.o</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\LISTWHEEL.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\MENU.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\MULTIEDIT.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\RADIO.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\EDIT.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\IMAGE.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Graph.o</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\LISTBOX.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Cursor.o</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\SPINBOX.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\WindowDLG_2.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\WindowDLG_2.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Bitmap.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_ColorBar.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Fading.o</file>
+      <file>$PROJ_DIR$\stm32f429xx_flash.icf</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_ImageFlow.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Speedometer.o</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_rtc.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Skinning.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_RadialMenu.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_WashingMachine.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_it.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GUI_ConfDefaults.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_dma_ex.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_sdram.pbi</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\startup_stm32f429xx.o</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sdram.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\CHECKBOX.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\GUI_Private.h</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_gpio.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Resource.pbi</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\inc\DIALOG_Intern.h</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Cursor.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Fading.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Graph.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_IconView.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_ImageFlow.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Intro.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Listview.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_RadialMenu.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Resource.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Skinning.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Speed.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Speedometer.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Start.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_TransparentDialog.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Treeview.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_VScreen.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_WashingMachine.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_ZoomAndRotate.c</file>
+      <file>$PROJ_DIR$\..\..\STemWinLibrary522\Lib\STemWin522_CM4_IAR.a</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_AntialiasedText.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\stm32f4xx_hal_msp.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIConf_STM32F429DISCO.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Speed.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\LCDConf_STM32F429DISCO.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO.pbi</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_BarGraph.o</file>
+      <file>$PROJ_DIR$\TFT-LCD\Obj\GUIDEMO_Intro.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 162 151</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32f4xx_hal_msp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 92 237 152 142 73 101 61 165 71 183 163 221 187 236 147 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f429xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 238</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 237 92 71 53 45 48 78 165 101 170 166 51 125 245 34 73 230 229 59 128 185 155 63 69 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 152 221 236 232 199 241 60 47 115 67 183 61 163 164 187 156 201 95 74 142 147 29 41 58 56 57 50 49 242 124 120 75 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176 155 232 29 185 63 199 59 34 45 48 241 245 46 49 242 124 125 120 115 41 53 58 60 56 128 57 47 50 51 69 67 75 78 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32f4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237 92 152 164 73 101 61 146 165 71 183 163 221 187 236 144 161 80 174 87 72 93 223 239 160 158 176 143 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176 146</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\WindowDLG.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 128 45 108 112 59 245 116 46 113 50 56 185 232 124 120 237 198 41 209 205 207 58 155 63 242 164 60 241 202 208 57 47 211 204 206 53 115 213 51 48 29 229 163 199 125 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116 45 232 29 185 63 199 48 155 59 60 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 108 241 198 202 113 211 208 41 57 128 47 209 50 204 205 206 112 53 207 56 213 58 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\WindowDLG_2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 211 45 202 115 232 29 59 245 116 46 60 57 206 51 124 120 237 241 208 47 204 53 213 48 242 164 128 108 198 113 41 209 50 205 112 207 56 58 185 155 63 229 163 199 125 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116 45 232 29 185 63 199 48 155 59 60 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 108 241 198 202 113 211 208 41 57 128 47 209 50 204 205 206 112 53 207 56 213 58 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 61 239 92 101 87 85 164 237 80 93 158 187 152 236 71 183 163 221 161 174 72 223 160 176 143 144 97 139 224 240 170 166 230 165 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 97 161 80 174 92 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201 221 239 87 85 97 237 92 80 93 158 139 224 240 152 156 161 174 72 223 160 176 143 144 101 170 166 230 229 95 74 142 165 73 71 183 61 163 164 187 236 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 92 165 152 237 221 71 183 187 236 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 73 61 101 164 237 152 165 71 183 163 221 187 236 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 164 237 152 73 101 61 165 71 183 163 221 187 236 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 92 187 71 237 152 236 165 163 221 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 237 221 165 152 163 71 183 187 236 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 224 240 80 158 139 152 221 156 142 87 239 85 97 237 201 92 161 174 72 223 160 176 143 144 101 170 166 230 229 95 74 147 165 73 71 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 143 230 229 160 237 92 95 74 147 161 174 223 176 144 101 170 166 142 80 87 93 239 158 85 97 139 224 240 152 221 156 201 165 73 71 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221 201 239 87 85 97 237 92 80 93 158 139 224 240 152 156 161 174 72 223 160 176 143 144 101 170 166 230 229 95 74 142 165 73 71 183 61 163 164 187 236 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 165 152 237 221 92 142 71 183 187 236 73 101 61 164 147 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 143 230 229 160 237 92 95 74 147 161 174 223 176 144 101 170 166 142 80 87 93 239 158 85 97 139 224 240 152 221 156 201 165 73 71 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 92 237 164 73 101 61 165 71 183 163 221 187 236 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 92 165 152 237 221 71 183 187 236 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165 152 237 221 92 163 142 71 183 187 236 73 101 61 164 147 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 221 158 139 152 156 93 224 240 142 87 239 85 97 237 201 92 161 174 72 223 160 176 143 144 101 170 166 230 229 95 74 147 165 73 71 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 92 187 71 237 152 236 165 163 221 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 92 187 71 237 152 236 165 163 221 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223 166 101 170 174 176 144 237 142 72 160 143 230 229 92 95 161 80 87 93 239 158 85 97 139 224 240 152 221 156 201 74 147 165 73 71 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 224 240 80 158 139 152 221 156 142 87 239 85 97 237 201 92 161 174 72 223 160 176 143 144 101 170 166 230 229 95 74 147 165 73 71 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 92 187 71 237 152 236 165 163 221 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 92 187 71 237 152 236 165 163 221 73 101 61 164 161 80 174 87 72 93 223 239 160 158 176 143 144 85 97 139 224 240 170 166 230 229 156 201 95 74 142 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 174 237 176 161 223 101 170 166 142 72 160 143 230 229 92 95 74 80 87 93 239 158 85 97 139 224 240 152 221 156 201 147 165 73 71 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Config\GUI_X.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166 101 185 29 73 170 142 92 237 232 165 71 230 229 95 74 147 97 59 63 199 161 80 174 87 72 93 223 239 160 158 176 143 144 85 139 224 240 152 221 156 201 155 183 61 163 164 187 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 232 29 185 63 199 59 97 161 80 174 92 144 73 71 101 237 152 240 163 164 170 166 183 221 230 224 61 139 165 85 229 187 143 87 156 72 201 93 223 95 236 239 74 160 142 158 147 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Config\GUIConf_STM32F429DISCO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 199 232 59 63 155 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 232 29 185 63 199 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Config\LCDConf_STM32F429DISCO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 269</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 29 157 232 59 155 63 199</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 232 29 185 63 199 59 157</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241 45 164 47 59 46 60 242 237 125 245 53 128 51 232 48 49 124 120 155 41 58 56 57 50 185 29 229 163 34 63 199 115 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_AntialiasedText.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 164 60 46 241 47 59 242 237 125 245 53 128 51 232 48 49 124 120 155 41 58 56 57 50 185 29 229 163 34 63 199 115 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Automotive.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155 45 164 56 46 41 50 242 237 125 245 58 57 185 232 48 49 124 120 241 53 60 128 47 51 59 29 229 163 34 63 199 115 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_BarGraph.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 45 60 245 152 46 185 232 241 47 155 115 125 170 166 34 59 63 199 53 128 51 48 240 41 58 56 57 50 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 232 29 185 63 199 59 34 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Bitmap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 60 128 46 155 152 45 241 47 59 185 63 240 53 51 232 48 245 69 41 58 56 57 50 199 115 125 170 166 237 34 29 49 242 124 120 229 163 164 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51 69 67 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_ColorBar.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155 45 56 232 245 152 46 41 50 58 57 59 63 199 115 125 170 166 241 53 60 128 47 51 185 29 48 240 34 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Conf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 29 60 245 152 46 185 199 241 47 155 115 125 170 166 34 232 59 63 53 128 51 48 240 41 58 56 57 50 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 232 29 185 63 199 59 34 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\TFT-LCD\Exe\TFT-LCD.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 219 149 267 134 131 135 271 216 217 129 212 218 210 138 220 272 137 227 130 226 268 222 100 98 132 136 228 154 269 186 238 264 82 117 111 233 66 70 99 181 243 104 68 266 191 103 44 123 225 200 203 150 121 192 190 193 86 105 52 145 159 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Cursor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 45 241 29 245 152 46 60 53 128 51 185 199 155 115 125 170 166 41 58 56 57 50 232 59 63 48 240 34 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Fading.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237 45 229 128 185 245 46 163 53 51 242 164 241 60 47 29 232 48 49 124 120 34 152 240 170 166 155 41 58 56 57 50 59 63 199 115 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 237 152 240 163 164 170 166 229 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Graph.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 164 128 232 46 53 51 242 237 125 245 241 60 47 59 48 49 124 120 155 41 58 56 57 50 185 29 229 163 34 63 199 115 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_IconView.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237 45 229 128 185 245 46 163 53 51 242 164 241 60 47 232 48 49 124 120 34 152 240 170 166 155 41 58 56 57 50 59 29 63 199 115 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 237 152 240 163 164 170 166 229 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_ImageFlow.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155 45 152 56 232 245 46 170 166 41 50 242 240 58 57 59 63 48 49 124 120 34 237 229 163 164 241 53 60 128 47 51 185 29 199 115 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120 237 152 240 163 164 170 166 229 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Intro.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237 152 51 45 240 53 245 46 77 128 185 242 229 170 166 241 60 47 232 48 49 124 120 34 163 164 155 41 58 56 57 50 59 29 78 63 199 115 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 237 152 240 163 164 170 166 229 77 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Listview.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 237 53 45 155 51 199 46 163 152 77 187 128 232 115 245 85 229 164 241 60 47 59 63 78 34 170 240 166 41 58 56 57 50 185 48 79 29 49 242 124 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 237 152 240 163 164 170 166 229 78 77 85 187 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_RadialMenu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 60 164 46 241 47 59 242 237 125 245 53 128 51 232 48 49 124 120 155 41 58 56 57 50 185 29 229 163 34 63 199 115 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Resource.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 45 164 53 46 128 232 242 237 125 245 241 60 47 59 48 49 124 120 155 41 58 56 57 50 185 29 229 163 34 63 199 115 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Skinning.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 45 241 29 245 152 46 60 53 128 51 185 199 155 115 125 170 166 41 58 56 57 50 232 59 63 48 240 34 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Speed.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 45 155 57 185 199 46 229 164 58 115 245 237 163 152 41 56 50 63 34 170 240 166 241 53 60 128 47 51 232 59 48 79 29 49 242 124 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 237 152 240 163 164 170 166 229 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Speedometer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 45 41 245 152 46 155 56 232 58 57 59 63 199 115 125 170 166 241 53 60 128 47 51 185 29 48 240 34 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Start.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 45 53 245 152 46 128 185 241 60 47 29 199 155 115 125 170 166 41 58 56 57 50 232 59 63 48 240 34 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_TransparentDialog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 164 60 46 241 47 59 242 237 125 245 53 128 51 232 48 49 124 120 155 41 58 56 57 50 185 29 229 163 34 63 199 115 152 240 170 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_Treeview.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 60 45 245 46 166 237 241 47 29 152 240 53 128 51 185 232 229 34 163 164 155 41 58 56 57 50 59 48 49 242 124 120 79 63 199 115 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 237 152 240 163 164 170 166 229 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_VScreen.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 232 45 237 155 245 46 163 152 41 50 29 229 164 58 57 59 34 170 240 166 241 53 60 128 47 51 185 48 49 242 124 120 79 63 199 115 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 237 152 240 163 164 170 166 229 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_WashingMachine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 45 41 245 152 46 155 56 232 58 57 59 63 199 115 125 170 166 241 53 60 128 47 51 185 29 48 240 34 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\STemWinLibrary522\Demo\GUIDEMO_ZoomAndRotate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 45 41 245 152 46 155 56 232 58 57 59 63 199 115 125 170 166 241 53 60 128 47 51 185 29 48 240 34 49 242 124 120 237 229 163 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 155 232 29 185 63 199 59 45 48 241 245 46 49 242 124 125 120 237 152 240 163 164 170 166 229 115 41 53 58 60 56 128 57 47 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Src\WindowDLG.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Src\WindowDLG_2.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

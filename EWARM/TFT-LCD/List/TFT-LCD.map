@@ -1,0 +1,2298 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.3.10732/W32 for ARM                01/Apr/2016  11:11:18
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  E:\STM32Porgram\TFT\EWARM\TFT-LCD\Exe\TFT-LCD.out
+#    Map file     =  E:\STM32Porgram\TFT\EWARM\TFT-LCD\List\TFT-LCD.map
+#    Command line =  
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUI_X.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIConf_STM32F429DISCO.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_AntialiasedText.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Automotive.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_BarGraph.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Bitmap.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_ColorBar.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Conf.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Cursor.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Fading.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Graph.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_IconView.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_ImageFlow.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Intro.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Listview.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_RadialMenu.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Resource.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Skinning.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Speed.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Speedometer.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Start.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_TransparentDialog.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_Treeview.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_VScreen.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_WashingMachine.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\GUIDEMO_ZoomAndRotate.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\LCDConf_STM32F429DISCO.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\main.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\startup_stm32f429xx.o
+#        E:\STM32Porgram\STemWinLibrary522\Lib\STemWin522_CM4_IAR.a
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_cortex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_dma.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_dma_ex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_dsi.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_flash.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_flash_ex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_flash_ramfunc.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_gpio.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_ltdc.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_ltdc_ex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_msp.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_pwr.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_pwr_ex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_rcc.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_rcc_ex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_rtc.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_rtc_ex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_sdram.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_spi.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_tim.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_hal_tim_ex.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_it.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\stm32f4xx_ll_fmc.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\system_stm32f4xx.o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj\WindowDLG.o --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\Exe\TFT-LCD.out --map
+#        E:\STM32Porgram\TFT\EWARM\TFT-LCD\List\TFT-LCD.map --config
+#        E:\STM32Porgram\TFT\EWARM/stm32f429xx_flash.icf --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x081fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2002ffff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                        0x1ac
+  .intvec             ro code  0x08000000    0x1ac  startup_stm32f429xx.o [1]
+                             - 0x080001ac    0x1ac
+
+"P1":                                      0x1267a
+  .text               ro code  0x080001ac   0x10dc  WM.o [3]
+  .text               ro code  0x08001288     0x30  LCD_SetClipRectEx.o [3]
+  .text               ro code  0x080012b8    0x698  GUI_Alloc.o [3]
+  .text               ro code  0x08001950     0x40  GUI__IntersectRect.o [3]
+  .text               ro code  0x08001990     0x58  GUI_MergeRect.o [3]
+  .text               ro code  0x080019e8     0x10  GUI_WaitEvent.o [3]
+  .text               ro code  0x080019f8     0x1c  GUI_MoveRect.o [3]
+  .text               ro code  0x08001a14    0x2fc  GUIDEV.o [3]
+  .text               ro code  0x08001d10      0xe  WM_GetFirstChild.o [3]
+  .text               ro code  0x08001d1e     0x62  GUI__IntersectRects.o [3]
+  .text               ro code  0x08001d80     0x38  GUI_RectsIntersect.o [3]
+  .text               ro code  0x08001db8     0x40  WM__SendMessage.o [3]
+  .text               ro code  0x08001df8     0x24  GUI_ALLOC_AllocZero.o [3]
+  .text               ro code  0x08001e1c     0x82  WM_BringToBottom.o [3]
+  .text               ro code  0x08001e9e      0xa  WIDGET_Effect_None.o [3]
+  .text               ro code  0x08001ea8    0x11c  WM_Timer.o [3]
+  .text               ro code  0x08001fc4     0x14  WM_NotifyParent.o [3]
+  .text               ro code  0x08001fd8     0x24  GUI_SelectLayer.o [3]
+  .text               ro code  0x08001ffc    0x664  LCD.o [3]
+  .text               ro code  0x08002660     0x40  GUI_SetDefault.o [3]
+  .text               ro code  0x080026a0      0x4  WM_SendMessageNoPara.o [3]
+  .text               ro code  0x080026a4    0x11c  GUIDEV_Banding.o [3]
+  .text               ro code  0x080027c0     0x1c  GUI_SaveContext.o [3]
+  .text               ro code  0x080027dc      0x8  GUI_SetColor.o [3]
+  .text               ro code  0x080027e4     0x54  GUI_OnKey.o [3]
+  .text               ro code  0x08002838     0xb0  GUI__ManageCache.o [3]
+  .text               ro code  0x080028e8    0x1a4  GUI_Core.o [3]
+  .text               ro code  0x08002a8c     0x40  WM_GetClientRect.o [3]
+  .text               ro code  0x08002acc     0x1c  WM_SendToParent.o [3]
+  .text               ro code  0x08002ae8    0x12c  GUI_Device.o [3]
+  .text               ro code  0x08002c14     0x10  WM_CriticalHandle.o [3]
+  .text               ro code  0x08002c24     0x78  ABImemmove_unaligned.o [6]
+  .text               ro code  0x08002c9c      0x6  ABImemclr.o [6]
+  .text               ro code  0x08002ca2     0x54  GUI__memset.o [3]
+  .text               ro code  0x08002cf6      0x2  GUICC_8888_Index2Color.o [3]
+  .text               ro code  0x08002cf8     0x76  ABImemcpy_unaligned.o [6]
+  .text               ro code  0x08002d6e      0x2  GUICC_888_Index2Color.o [3]
+  .text               ro code  0x08002d70    0x178  LCD_GetEx.o [3]
+  .text               ro code  0x08002ee8    0x1a4  GUIDEV_UsageBM.o [3]
+  .text               ro code  0x0800308c     0x12  GUI_SelectLCD.o [3]
+  .text               ro code  0x080030a0     0x4c  GUIDEV_Usage.o [3]
+  .text               ro code  0x080030ec     0x24  LCD_UpdateColorIndices.o [3]
+  .text               ro code  0x08003110      0x4  GUI_SetDrawMode.o [3]
+  .text               ro code  0x08003114    0x5e0  GUIDEV_WriteToActiveOpaque.o [3]
+  .text               ro code  0x080036f4     0x22  WM__GetPrevSibling.o [3]
+  .text               ro code  0x08003716      0xe  WM_GetParent.o [3]
+  .text               ro code  0x08003724      0x6  ABImemclr4.o [6]
+  .text               ro code  0x0800372c    0x2de  GUI_Timer.o [3]
+  .text               ro code  0x08003a0a      0x4  GUI_Time.o [3]
+  .text               ro code  0x08003a10     0xb4  LCD_Color.o [3]
+  .text               ro code  0x08003ac4     0x10  GUI_Pen.o [3]
+  .text               ro code  0x08003ad4     0x14  GUI_SetTextAlign.o [3]
+  .text               ro code  0x08003ae8     0x14  GUI_SetTextMode.o [3]
+  .text               ro code  0x08003afc     0x14  GUI_SetFont.o [3]
+  .text               ro code  0x08003b10     0x10  GUI_SetLineStyle.o [3]
+  .text               ro code  0x08003b20     0x28  WM__SendMessageNoPara.o [3]
+  .text               ro code  0x08003b48     0x1e  GUI_GetOrg.o [3]
+  .text               ro code  0x08003b68     0x28  GUIDEV_GetYSize.o [3]
+  .text               ro code  0x08003b90     0x2c  GUIDEV_ReduceYSize.o [3]
+  .text               ro code  0x08003bbc     0x68  GUIDEV_SetOrg.o [3]
+  .text               ro code  0x08003c24     0x3c  GUIDEV_Clear.o [3]
+  .text               ro code  0x08003c60     0x38  WM_OnKey.o [3]
+  .text               ro code  0x08003c98     0x10  GUI_Goto.o [3]
+  .text               ro code  0x08003ca8     0x1c  GUIConf_STM32F429DISCO.o [1]
+  .text               ro code  0x08003cc4     0xa2  LCDConf_STM32F429DISCO.o [1]
+  .text               ro code  0x08003d68      0xe  GUI_X.o [1]
+  .text               ro code  0x08003d78     0x18  WM_GetDesktopWindow.o [3]
+  .text               ro code  0x08003d90     0x30  GUI_SetOrg.o [3]
+  .text               ro code  0x08003dc0     0x66  ABImemset.o [6]
+  .text               ro code  0x08003e28     0x44  LCD_SelectLCD.o [3]
+  .text               ro code  0x08003e6c    0x24a  GUI__CompactPixelIndices.o [3]
+  .text               ro code  0x080040b6     0x18  GUIDEV_GetDataPtr.o [3]
+  .text               ro code  0x080040ce     0x10  WM__GetFirstSibling.o [3]
+  .text               ro code  0x080040e0     0x32  ABImemset48.o [6]
+  .text               ro code  0x08004112     0x1a  LCD_GetNumDisplays.o [3]
+  .text               ro code  0x0800412c     0xb0  LCD_Set.o [3]
+  .text               ro code  0x080041dc    0x78c  stm32f4xx_hal_msp.o [1]
+  .text               ro code  0x08004968    0x12e  stm32f4xx_hal_cortex.o [1]
+  .text               ro code  0x08004a98    0x248  stm32f4xx_hal_gpio.o [1]
+  .text               ro code  0x08004ce0     0xa2  stm32f4xx_hal_sdram.o [1]
+  .text               ro code  0x08004d84     0x98  stm32f4xx_hal.o [1]
+  .text               ro code  0x08004e1c    0x2e8  stm32f4xx_hal_spi.o [1]
+  .text               ro code  0x08005104      0xa  stm32f4xx_hal_msp.o [1]
+  .text               ro code  0x08005110    0x634  main.o [1]
+  .text               ro code  0x08005744    0x166  stm32f4xx_ll_fmc.o [1]
+  .text               ro code  0x080058ac    0x5b8  stm32f4xx_hal_rcc.o [1]
+  .text               ro code  0x08005e64      0x4  GUI_GetFontSizeY.o [3]
+  .text               ro code  0x08005e68     0x24  WM_GetInsideRect.o [3]
+  .text               ro code  0x08005e8c     0xac  GUI_DispStringInRectEx.o [3]
+  .text               ro code  0x08005f38    0x168  PROGBAR_Skin.o [3]
+  .text               ro code  0x080060a0     0x74  WindowDLG.o [1]
+  .text               ro code  0x08006114     0x52  WM_Show.o [3]
+  .text               ro code  0x08006166     0x50  WM_GetDialogItem.o [3]
+  .text               ro code  0x080061b8    0x364  PROGBAR.o [3]
+  .text               ro code  0x0800651c    0x942  GRAPH.o [3]
+  .text               ro code  0x08006e60    0x2b8  GRAPH_SCALE.o [3]
+  .text               ro code  0x08007118    0x212  GRAPH_DATA_YT.o [3]
+  .text               ro code  0x0800732c     0x38  GUI_Exec.o [3]
+  .text               ro code  0x08007364     0x30  I32ToDbl.o [5]
+  .text               ro code  0x08007394    0x1a2  DblMul.o [5]
+  .text               ro code  0x08007538    0x256  DblDiv.o [5]
+  .text               ro code  0x0800778e     0x12  sin.o [5]
+  .text               ro code  0x080077a0     0xe8  DblAdd.o [5]
+  .text               ro code  0x08007888     0x4c  DblToI32.o [5]
+  .text               ro code  0x080078d4     0x90  stm32f4xx_hal_pwr_ex.o [1]
+  .text               ro code  0x08007964    0x2c0  stm32f4xx_hal_rcc_ex.o [1]
+  .text               ro code  0x08007c24    0x3bc  stm32f4xx_hal_ltdc.o [1]
+  .text               ro code  0x08007fe0     0x14  GUI__GetFontSizeY.o [3]
+  .text               ro code  0x08007ff4    0x182  GUI_DispStringInRect.o [3]
+  .text               ro code  0x08008178     0x18  WM_SetUserClipRect.o [3]
+  .text               ro code  0x08008190     0x1a  GUI__ReduceRect.o [3]
+  .text               ro code  0x080081ac    0x1bc  WINDOW.o [3]
+  .text               ro code  0x08008368     0x48  TEXT_SetText.o [3]
+  .text               ro code  0x080083b0     0x20  TEXT_SetTextAlign.o [3]
+  .text               ro code  0x080083d0     0x26  TEXT_SetFont.o [3]
+  .text               ro code  0x080083f8     0xa4  DIALOG.o [3]
+  .text               ro code  0x0800849c     0x1e  WM_GetId.o [3]
+  .text               ro code  0x080084ba     0x1c  GUI_AddDecMin.o [3]
+  .text               ro code  0x080084d6     0x14  GUI_GetStringDistX.o [3]
+  .text               ro code  0x080084ec    0x3a4  WIDGET.o [3]
+  .text               ro code  0x08008890     0x1a  WIDGET_SetEffect.o [3]
+  .text               ro code  0x080088aa     0x54  GUI_Realloc.o [3]
+  .text               ro code  0x080088fe     0x9c  WM_GetInsideRectExScrollbar.o [3]
+  .text               ro code  0x0800899c      0xc  GUI_GetLineStyle.o [3]
+  .text               ro code  0x080089a8     0x44  GUI_DrawVLine.o [3]
+  .text               ro code  0x080089ec    0x4d8  GUI_DrawLine.o [3]
+  .text               ro code  0x08008ec4     0x4c  GUI_DrawHLine.o [3]
+  .text               ro code  0x08008f10     0x40  WM_GetOrg.o [3]
+  .text               ro code  0x08008f50    0x12a  GUI_ARRAY.o [3]
+  .text               ro code  0x0800907a     0x42  WM_SetScrollbar.o [3]
+  .text               ro code  0x080090bc     0x20  WM_CheckScrollPos.o [3]
+  .text               ro code  0x080090dc     0x1a  SCROLLBAR_GetValue.o [3]
+  .text               ro code  0x080090f6     0x66  WM_GetScrollbar.o [3]
+  .text               ro code  0x0800915c    0x1f4  GUI_Valf.o [3]
+  .text               ro code  0x08009350    0x1f4  GUI_DrawGraphEx.o [3]
+  .text               ro code  0x08009544    0x450  xsin.o [5]
+  .text               ro code  0x08009994    0x180  DblSub.o [5]
+  .text               ro code  0x08009b14     0x54  GUI_Char.o [3]
+  .text               ro code  0x08009b68      0xa  GUI_GetClientRect.o [3]
+  .text               ro code  0x08009b74    0x1b4  GUI_CharLine.o [3]
+  .text               ro code  0x08009d28     0x4c  GUI_UC.o [3]
+  .text               ro code  0x08009d74     0x16  GUI__HandleEOLine.o [3]
+  .text               ro code  0x08009d8a      0x4  WM_IsWindow.o [3]
+  .text               ro code  0x08009d90     0x94  WM_SetFocus.o [3]
+  .text               ro code  0x08009e24     0x30  WM__IsAncestor.o [3]
+  .text               ro code  0x08009e54     0x52  WM_SetFocusOnPrevChild.o [3]
+  .text               ro code  0x08009ea8     0x90  WM_SetFocusOnNextChild.o [3]
+  .text               ro code  0x08009f38     0x6e  GUI__SetText.o [3]
+  .text               ro code  0x08009fa6     0x18  WM_GetClientWindow.o [3]
+  .text               ro code  0x08009fc0     0x14  WM_GetFocussedWindow.o [3]
+  .text               ro code  0x08009fd4    0x100  GUI_AddDecShift.o [3]
+  .text               ro code  0x0800a0d4     0x1a  GUI__GetNumChars.o [3]
+  .text               ro code  0x0800a0ee     0x14  WM__Screen2Client.o [3]
+  .text               ro code  0x0800a102     0xd2  WM__UpdateChildPositions.o [3]
+  .text               ro code  0x0800a1d4     0x74  WM_BringToTop.o [3]
+  .text               ro code  0x0800a248     0x1a  WM_SetScrollState.o [3]
+  .text               ro code  0x0800a262     0x14  GUI_FillRectEx.o [3]
+  .text               ro code  0x0800a278     0x42  WM_GetWindowRect.o [3]
+  .text               ro code  0x0800a2ba     0x14  WM_GetFlags.o [3]
+  .text               ro code  0x0800a2d0     0x20  GUI_DrawPoint.o [3]
+  .text               ro code  0x0800a2f0    0x1ec  GUI_FillPolygon.o [3]
+  .text               ro code  0x0800a4dc     0x3c  GUI_ALLOC_AllocInit.o [3]
+  .text               ro code  0x0800a518     0x34  SCROLLBAR_Create.o [3]
+  .text               ro code  0x0800a54c     0x28  WM_Hide.o [3]
+  .text               ro code  0x0800a574     0x6e  ceil.o [5]
+  .text               ro code  0x0800a5e4     0x6e  floor.o [5]
+  .text               ro code  0x0800a654     0x90  DblToFlt.o [5]
+  .text               ro code  0x0800a6e4     0x4e  FltToDbl.o [5]
+  .text               ro code  0x0800a732     0x46  GUI_Val.o [3]
+  .text               ro code  0x0800a778     0x2e  DblCmpLe.o [5]
+  .text               ro code  0x0800a7a8     0x2e  DblCmpGe.o [5]
+  .text               ro code  0x0800a7d8      0xc  errno.o [4]
+  .text               ro code  0x0800a7e4    0x168  xquad.o [5]
+  .text               ro code  0x0800a94c     0x1a  WM__GetLastSibling.o [3]
+  .text               ro code  0x0800a968     0x28  WM__GetFocussedChild.o [3]
+  .text               ro code  0x0800a990     0x20  WM_IsFocussable.o [3]
+  .text               ro code  0x0800a9b0     0x48  GUI__strcmp.o [3]
+  .text               ro code  0x0800a9f8     0x14  GUI__strlen.o [3]
+  .text               ro code  0x0800aa0c     0x44  strcpy_unaligned.o [6]
+  .text               ro code  0x0800aa50    0x104  WM_Move.o [3]
+  .text               ro code  0x0800ab54     0xf2  WM_ResizeWindow.o [3]
+  .text               ro code  0x0800ac46      0x4  WM_ForEachDesc.o [3]
+  .text               ro code  0x0800ac4c     0x48  GUI_FillRect.o [3]
+  .text               ro code  0x0800ac94     0xb4  GUI_Circ.o [3]
+  .text               ro code  0x0800ad48    0x542  SCROLLBAR.o [3]
+  .text               ro code  0x0800b28c     0xfc  GUI_DispString.o [3]
+  .text               ro code  0x0800b388      0x2  xtls.o [4]
+  .text               ro code  0x0800b38a     0x7a  xdint.o [5]
+  .text               ro code  0x0800b404     0x20  DblCmpEq.o [5]
+  .text               ro code  0x0800b424    0x1a8  fmod.o [5]
+  .text               ro code  0x0800b5cc     0x22  WM__IsChild.o [3]
+  .text               ro code  0x0800b5ee     0x2c  WM__ForEachDesc.o [3]
+  .text               ro code  0x0800b61a     0x1a  GUI__DivideRound32.o [3]
+  .text               ro code  0x0800b634     0x58  WM_SetCapture.o [3]
+  .text               ro code  0x0800b68c     0x28  WM_GetScrollPartner.o [3]
+  .text               ro code  0x0800b6b4      0xc  iarEdom.o [6]
+  .rodata             const    0x0800b6c0    0xa88  F16B_ASCII.o [3]
+  .text               ro code  0x0800c148    0xa6c  GUIDRV_Lin_32.o [3]
+  .rodata             const    0x0800cbb4    0x984  F13_1.o [3]
+  .rodata             const    0x0800d538    0x930  F8x15B_ASCII.o [3]
+  .rodata             const    0x0800de68    0x918  F13_ASCII.o [3]
+  .text               ro code  0x0800e780    0x900  GUIDEV_32.o [3]
+  .text               ro code  0x0800f080    0x2f4  GUI__Alpha.o [3]
+  .text               ro code  0x0800f374    0x1b6  LCD_ReadRect.o [3]
+  .text               ro code  0x0800f52a    0x12c  GUI__ExpandPixelIndices.o [3]
+  .rodata             const    0x0800f658    0x7b0  F8x10_ASCII.o [3]
+  .rodata             const    0x0800fe08    0x718  F6x8.o [3]
+  .text               ro code  0x08010520    0x450  LCD_RotateCCW.o [3]
+  .text               ro code  0x08010970    0x2cc  SCROLLBAR_SkinClassic.o [3]
+  .text               ro code  0x08010c3c    0x216  GUI_DrawGradient.o [3]
+  .text               ro code  0x08010e52     0x16  GUI_GetColor.o [3]
+  .text               ro code  0x08010e68     0x18  LCD_GetColorIndex.o [3]
+  .text               ro code  0x08010e80    0x1c4  LCD_AA.o [3]
+  .text               ro code  0x08011044      0xe  LCD_GetPixelColor.o [3]
+  .text               ro code  0x08011054     0x5c  LCD_GetP.o [3]
+  .text               ro code  0x080110b0    0x174  PROGBAR_SkinFlex.o [3]
+  .text               ro code  0x08011224     0x10  GUI_DispStringAt.o [3]
+  .text               ro code  0x08011234    0x174  GUI_CharM.o [3]
+  .text               ro code  0x080113a8    0x150  TEXT.o [3]
+  .text               ro code  0x080114f8     0x1a  WM_SetTrans.o [3]
+  .text               ro code  0x08011512    0x12a  GUI_DispStringInRectWrap.o [3]
+  .text               ro code  0x0801163c     0x36  strlen.o [6]
+  .text               ro code  0x08011674    0x124  GUI__Wrap.o [3]
+  .text               ro code  0x08011798      0x4  GUI_SetClipRect.o [3]
+  .text               ro code  0x0801179c    0x144  PROGBAR_SkinClassic.o [3]
+  .text               ro code  0x080118e0    0x134  GUIDEV_StaticDevices.o [3]
+  .text               ro code  0x08011a14     0x42  WM_SetSize.o [3]
+  .text               ro code  0x08011a58     0x24  GUI_SetAlpha.o [3]
+  .text               ro code  0x08011a7c     0x78  GUIDEV_Write.o [3]
+  .text               ro code  0x08011af4    0x12c  GUI_CharP.o [3]
+  .text               ro code  0x08011c20    0x128  WIDGET_Effect_3D.o [3]
+  .text               ro code  0x08011d48     0x88  GUI_2DLib.o [3]
+  .text               ro code  0x08011dd0    0x10c  GUIDEV_WriteToActiveAlpha.o [3]
+  .rodata             const    0x08011edc    0x100  LCD_Mirror.o [3]
+  .text               ro code  0x08011fdc     0xc0  GUICC_0.o [3]
+  .text               ro code  0x0801209c     0x3e  GUI_CalcColorDist.o [3]
+  .text               ro code  0x080120dc     0xa4  GUICC_M8888I.o [3]
+  .rodata             const    0x08012180     0x70  WindowDLG.o [1]
+  .text               ro code  0x080121f0     0x6c  system_stm32f4xx.o [1]
+  .text               ro code  0x0801225c     0x40  zero_init3.o [6]
+  .text               ro code  0x0801229c     0x3c  TEXT_CreateIndirect.o [3]
+  .text               ro code  0x080122d8     0x38  PROGBAR_CreateIndirect.o [3]
+  .text               ro code  0x08012310     0x38  GRAPH_CreateIndirect.o [3]
+  .text               ro code  0x08012348     0x38  packbits_init_single.o [6]
+  .rodata             const    0x08012380     0x34  GUIDRV_Lin_32.o [3]
+  .text               ro code  0x080123b4     0x28  GUICC_8888.o [3]
+  .text               ro code  0x080123dc     0x28  data_init.o [6]
+  .text               ro code  0x08012404     0x24  GUI_UC_EncodeNone.o [3]
+  .text               ro code  0x08012428     0x22  fpinit_M.o [5]
+  .iar.init_table     const    0x0801244c     0x20  - Linker created -
+  .rodata             const    0x0801246c     0x1c  WIDGET_Effect_None.o [3]
+  .rodata             const    0x08012488     0x1c  WIDGET_Effect_3D.o [3]
+  .text               ro code  0x080124a4     0x1a  cmain.o [6]
+  .text               ro code  0x080124be      0x4  low_level_init.o [4]
+  .text               ro code  0x080124c2      0x4  exit.o [4]
+  .text               ro code  0x080124c8      0xa  cexit.o [6]
+  .text               ro code  0x080124d4     0x14  exit.o [7]
+  .rodata             const    0x080124e8     0x18  GUICC_8888.o [3]
+  .rodata             const    0x08012500     0x18  GUICC_M8888I.o [3]
+  .rodata             const    0x08012518     0x18  GUICC_0.o [3]
+  .rodata             const    0x08012530     0x10  stm32f4xx_hal_rcc.o [1]
+  .rodata             const    0x08012540     0x10  WindowDLG.o [1]
+  .text               ro code  0x08012550     0x10  startup_stm32f429xx.o [1]
+  .rodata             const    0x08012560      0xc  main.o [1]
+  .rodata             const    0x0801256c      0xc  LCD.o [3]
+  .text               ro code  0x08012578      0xc  stm32f4xx_it.o [1]
+  .text               ro code  0x08012584      0xc  cstartup_M.o [6]
+  .rodata             const    0x08012590      0x8  main.o [1]
+  .rodata             const    0x08012598      0x8  WindowDLG.o [1]
+  .rodata             const    0x080125a0      0x8  WindowDLG.o [1]
+  .rodata             const    0x080125a8      0x8  WindowDLG.o [1]
+  .rodata             const    0x080125b0      0x8  WindowDLG.o [1]
+  .text               ro code  0x080125b8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125bc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125c0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125c4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125c8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125cc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125d0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125d4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125d8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125dc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125e0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125e4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125e8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125ec      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125f0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125f4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125f8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080125fc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012600      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012604      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012608      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801260c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012610      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012614      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012618      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801261c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012620      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012624      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012628      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801262c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012630      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012634      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012638      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801263c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012640      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012644      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012648      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801264c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012650      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012654      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012658      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801265c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012660      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012664      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012668      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801266c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012670      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012674      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012678      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801267c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012680      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012684      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012688      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801268c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012690      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012694      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012698      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801269c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126a0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126a4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126a8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126ac      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126b0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126b4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126b8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126bc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126c0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126c4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126c8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126cc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126d0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126d4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126d8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126dc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126e0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126e4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126e8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126ec      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126f0      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126f4      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126f8      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x080126fc      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012700      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012704      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012708      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801270c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012710      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012714      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012718      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801271c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012720      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012724      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012728      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801272c      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012730      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012734      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x08012738      0x4  startup_stm32f429xx.o [1]
+  .text               ro code  0x0801273c      0x4  startup_stm32f429xx.o [1]
+  .rodata             const    0x08012740      0x0  zero_init3.o [6]
+  .rodata             const    0x08012740      0x0  packbits_init_single.o [6]
+  Initializer bytes   const    0x08012740     0xe6  <for P2-1>
+                             - 0x08012826  0x1267a
+
+"P2", part 1 of 3:                           0x12b
+  P2-1                         0x20000000    0x12b  <Init block>
+    .data             inited   0x20000000      0x4  main.o [1]
+    .data             inited   0x20000004      0x4  main.o [1]
+    .data             inited   0x20000008      0x4  system_stm32f4xx.o [1]
+    .data             inited   0x2000000c     0x10  GUI_Core.o [3]
+    .data             inited   0x2000001c     0x28  PROGBAR_SkinFlex.o [3]
+    .data             inited   0x20000044      0xc  PROGBAR_Skin.o [3]
+    .data             inited   0x20000050     0x1c  PROGBAR.o [3]
+    .data             inited   0x2000006c     0x30  GRAPH.o [3]
+    .data             inited   0x2000009c      0x8  GRAPH_SCALE.o [3]
+    .data             inited   0x200000a4      0x4  WIDGET.o [3]
+    .data             inited   0x200000a8     0x10  TEXT.o [3]
+    .data             inited   0x200000b8      0x8  LCD_RotateCCW.o [3]
+    .data             inited   0x200000c0      0x4  WINDOW.o [3]
+    .data             inited   0x200000c4      0x4  LCD.o [3]
+    .data             inited   0x200000c8     0x10  LCD_Color.o [3]
+    .data             inited   0x200000d8      0xc  GUI_OnKey.o [3]
+    .data             inited   0x200000e4      0x4  GUI__Alpha.o [3]
+    .data             inited   0x200000e8     0x18  SCROLLBAR.o [3]
+    .data             inited   0x20000100      0x4  LCD_AA.o [3]
+    .data             inited   0x20000104      0x4  GUI_CharLine.o [3]
+    .data             inited   0x20000108      0x8  GUI__Wrap.o [3]
+    .data             inited   0x20000110     0x14  WIDGET_Effect_3D.o [3]
+    __DLIB_PERTHREAD  inited   0x20000124      0x4  errno.o [4]
+    .data             inited   0x20000128      0x2  SCROLLBAR.o [3]
+    .data             inited   0x2000012a      0x1  GUIDEV_StaticDevices.o [3]
+                             - 0x2000012b    0x12b
+
+"P2", part 2 of 3:                          0x2000
+  CSTACK                       0x20000130   0x2000  <Block>
+    CSTACK            uninit   0x20000130   0x2000  <Block tail>
+                             - 0x20002130   0x2000
+
+"P2", part 3 of 3:                           0x460
+  .bss                zero     0x20002130     0xbc  GUI_Alloc.o [3]
+  .bss                zero     0x200021ec     0xa8  main.o [1]
+  .bss                zero     0x20002294     0x80  GUI_Core.o [3]
+  .bss                zero     0x20002314     0x70  WM.o [3]
+  .bss                zero     0x20002384     0x58  main.o [1]
+  .bss                zero     0x200023dc     0x58  GUI_OnKey.o [3]
+  .bss                zero     0x20002434     0x40  WM_Touch.o [3]
+  .bss                zero     0x20002474     0x34  main.o [1]
+  .bss                zero     0x200024a8     0x20  GUI_SetAlpha.o [3]
+  .bss                zero     0x200024c8     0x1c  GUI__Alpha.o [3]
+  .bss                zero     0x200024e4     0x1c  GUI_FillPolygon.o [3]
+  .bss                zero     0x20002500     0x14  GUI_Alloc.o [3]
+  .bss                zero     0x20002514     0x14  GUI_Timer.o [3]
+  .bss                zero     0x20002528     0x10  WM_Touch.o [3]
+  .bss                zero     0x20002538      0xc  GUI_Core.o [3]
+  .bss                zero     0x20002544      0x8  GUICC_M8888I.o [3]
+  .bss                zero     0x2000254c      0x8  GUI_DispStringInRectEx.o [3]
+  .bss                zero     0x20002554      0x8  GUI__ManageCache.o [3]
+  .bss                zero     0x2000255c      0x4  stm32f4xx_hal.o [1]
+  .bss                zero     0x20002560      0x4  stm32f4xx_hal_msp.o [1]
+  .bss                zero     0x20002564      0x4  GUI_Core.o [3]
+  .bss                zero     0x20002568      0x4  GUI_Core.o [3]
+  .bss                zero     0x2000256c      0x4  GUI_Core.o [3]
+  .bss                zero     0x20002570      0x4  GUI_Core.o [3]
+  .bss                zero     0x20002574      0x4  GUI_Core.o [3]
+  .bss                zero     0x20002578      0x4  WM__SendMessage.o [3]
+  .bss                zero     0x2000257c      0x4  GUI_WaitEvent.o [3]
+  .bss                zero     0x20002580      0x4  GUI__Alpha.o [3]
+  .bss                zero     0x20002584      0x4  GUIDEV_Banding.o [3]
+  .bss                zero     0x20002588      0x2  GUI_Core.o [3]
+  .bss                zero     0x2000258a      0x2  GUI_Core.o [3]
+  .bss                zero     0x2000258c      0x1  WM.o [3]
+                             - 0x2000258d    0x45d
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x45d:
+          0x20002130  0x45d
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xe6 (76% of destination):
+          0x08012740   0xe6
+    1 destination range, total size 0x12b:
+          0x20000000  0x12b
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                         ro code  ro data  rw data
+    ------                         -------  -------  -------
+E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj: [1]
+    GUIConf_STM32F429DISCO.o            28
+    GUI_X.o                             14
+    LCDConf_STM32F429DISCO.o           162
+    WindowDLG.o                        116      160
+    main.o                           1 588       26      316
+    startup_stm32f429xx.o              836
+    stm32f4xx_hal.o                    152                 4
+    stm32f4xx_hal_cortex.o             302
+    stm32f4xx_hal_gpio.o               584
+    stm32f4xx_hal_ltdc.o               956
+    stm32f4xx_hal_msp.o              1 942                 4
+    stm32f4xx_hal_pwr_ex.o             144
+    stm32f4xx_hal_rcc.o              1 464       16
+    stm32f4xx_hal_rcc_ex.o             704
+    stm32f4xx_hal_sdram.o              162
+    stm32f4xx_hal_spi.o                744
+    stm32f4xx_it.o                      12
+    stm32f4xx_ll_fmc.o                 358
+    system_stm32f4xx.o                 108        3        4
+    --------------------------------------------------------
+    Total:                          10 376      205      328
+
+command line: [2]
+    --------------------------------------------------------
+    Total:
+
+STemWin522_CM4_IAR.a: [3]
+    DIALOG.o                           164
+    F13_1.o                                   2 436
+    F13_ASCII.o                               2 328
+    F16B_ASCII.o                              2 696
+    F6x8.o                                    1 816
+    F8x10_ASCII.o                             1 968
+    F8x15B_ASCII.o                            2 352
+    GRAPH.o                          2 370       37       48
+    GRAPH_CreateIndirect.o              56
+    GRAPH_DATA_YT.o                    530
+    GRAPH_SCALE.o                      696        6        8
+    GUICC_0.o                          192       24
+    GUICC_8888.o                        40       24
+    GUICC_8888_Index2Color.o             2
+    GUICC_888_Index2Color.o              2
+    GUICC_M8888I.o                     164       24        8
+    GUIDEV.o                           764
+    GUIDEV_32.o                      2 304
+    GUIDEV_Banding.o                   284                 4
+    GUIDEV_Clear.o                      60
+    GUIDEV_GetDataPtr.o                 24
+    GUIDEV_GetYSize.o                   40
+    GUIDEV_ReduceYSize.o                44
+    GUIDEV_SetOrg.o                    104
+    GUIDEV_StaticDevices.o             308        1        1
+    GUIDEV_Usage.o                      76
+    GUIDEV_UsageBM.o                   420
+    GUIDEV_Write.o                     120
+    GUIDEV_WriteToActiveAlpha.o        268
+    GUIDEV_WriteToActiveOpaque.o     1 504
+    GUIDRV_Lin_32.o                  2 668       52
+    GUI_2DLib.o                        136
+    GUI_ALLOC_AllocInit.o               60
+    GUI_ALLOC_AllocZero.o               36
+    GUI_ARRAY.o                        298
+    GUI_AddDecMin.o                     28
+    GUI_AddDecShift.o                  256
+    GUI_Alloc.o                      1 688               208
+    GUI_CalcColorDist.o                 62
+    GUI_Char.o                          84
+    GUI_CharLine.o                     436        3        4
+    GUI_CharM.o                        372
+    GUI_CharP.o                        300
+    GUI_Circ.o                         180
+    GUI_Core.o                         420       12      180
+    GUI_Device.o                       300
+    GUI_DispString.o                   252
+    GUI_DispStringAt.o                  16
+    GUI_DispStringInRect.o             386
+    GUI_DispStringInRectEx.o           172                 8
+    GUI_DispStringInRectWrap.o         298
+    GUI_DrawGradient.o                 534
+    GUI_DrawGraphEx.o                  500
+    GUI_DrawHLine.o                     76
+    GUI_DrawLine.o                   1 240
+    GUI_DrawPoint.o                     32
+    GUI_DrawVLine.o                     68
+    GUI_Exec.o                          56
+    GUI_FillPolygon.o                  492                28
+    GUI_FillRect.o                      72
+    GUI_FillRectEx.o                    20
+    GUI_GetClientRect.o                 10
+    GUI_GetColor.o                      22
+    GUI_GetFontSizeY.o                   4
+    GUI_GetLineStyle.o                  12
+    GUI_GetOrg.o                        30
+    GUI_GetStringDistX.o                20
+    GUI_Goto.o                          16
+    GUI_MergeRect.o                     88
+    GUI_MoveRect.o                      28
+    GUI_OnKey.o                         84        9      100
+    GUI_Pen.o                           16
+    GUI_Realloc.o                       84
+    GUI_RectsIntersect.o                56
+    GUI_SaveContext.o                   28
+    GUI_SelectLCD.o                     18
+    GUI_SelectLayer.o                   36
+    GUI_SetAlpha.o                      36                32
+    GUI_SetClipRect.o                    4
+    GUI_SetColor.o                       8
+    GUI_SetDefault.o                    64
+    GUI_SetDrawMode.o                    4
+    GUI_SetFont.o                       20
+    GUI_SetLineStyle.o                  16
+    GUI_SetOrg.o                        48
+    GUI_SetTextAlign.o                  20
+    GUI_SetTextMode.o                   20
+    GUI_Time.o                           4
+    GUI_Timer.o                        734                20
+    GUI_UC.o                            76
+    GUI_UC_EncodeNone.o                 36
+    GUI_Val.o                           70
+    GUI_Valf.o                         500
+    GUI_WaitEvent.o                     16                 4
+    GUI__Alpha.o                       756        3       36
+    GUI__CompactPixelIndices.o         586
+    GUI__DivideRound32.o                26
+    GUI__ExpandPixelIndices.o          300
+    GUI__GetFontSizeY.o                 20
+    GUI__GetNumChars.o                  26
+    GUI__HandleEOLine.o                 22
+    GUI__IntersectRect.o                64
+    GUI__IntersectRects.o               98
+    GUI__ManageCache.o                 176                 8
+    GUI__ReduceRect.o                   26
+    GUI__SetText.o                     110
+    GUI__Wrap.o                        292        6        8
+    GUI__memset.o                       84
+    GUI__strcmp.o                       72
+    GUI__strlen.o                       20
+    LCD.o                            1 636       15        4
+    LCD_AA.o                           452        4        4
+    LCD_Color.o                        180       13       16
+    LCD_GetColorIndex.o                 24
+    LCD_GetEx.o                        376
+    LCD_GetNumDisplays.o                26
+    LCD_GetP.o                          92
+    LCD_GetPixelColor.o                 14
+    LCD_Mirror.o                                256
+    LCD_ReadRect.o                     438
+    LCD_RotateCCW.o                  1 104        6        8
+    LCD_SelectLCD.o                     68
+    LCD_Set.o                          176
+    LCD_SetClipRectEx.o                 48
+    LCD_UpdateColorIndices.o            36
+    PROGBAR.o                          868       22       28
+    PROGBAR_CreateIndirect.o            56
+    PROGBAR_Skin.o                     360        9       12
+    PROGBAR_SkinClassic.o              324
+    PROGBAR_SkinFlex.o                 372       31       40
+    SCROLLBAR.o                      1 346       20       26
+    SCROLLBAR_Create.o                  52
+    SCROLLBAR_GetValue.o                26
+    SCROLLBAR_SkinClassic.o            716
+    TEXT.o                             336       12       16
+    TEXT_CreateIndirect.o               60
+    TEXT_SetFont.o                      38
+    TEXT_SetText.o                      72
+    TEXT_SetTextAlign.o                 32
+    WIDGET.o                           932        3        4
+    WIDGET_Effect_3D.o                 296       43       20
+    WIDGET_Effect_None.o                10       28
+    WIDGET_SetEffect.o                  26
+    WINDOW.o                           444        3        4
+    WM.o                             4 316               113
+    WM_BringToBottom.o                 130
+    WM_BringToTop.o                    116
+    WM_CheckScrollPos.o                 32
+    WM_CriticalHandle.o                 16
+    WM_ForEachDesc.o                     4
+    WM_GetClientRect.o                  64
+    WM_GetClientWindow.o                24
+    WM_GetDesktopWindow.o               24
+    WM_GetDialogItem.o                  80
+    WM_GetFirstChild.o                  14
+    WM_GetFlags.o                       20
+    WM_GetFocussedWindow.o              20
+    WM_GetId.o                          30
+    WM_GetInsideRect.o                  36
+    WM_GetInsideRectExScrollbar.o      156
+    WM_GetOrg.o                         64
+    WM_GetParent.o                      14
+    WM_GetScrollPartner.o               40
+    WM_GetScrollbar.o                  102
+    WM_GetWindowRect.o                  66
+    WM_Hide.o                           40
+    WM_IsFocussable.o                   32
+    WM_IsWindow.o                        4
+    WM_Move.o                          260
+    WM_NotifyParent.o                   20
+    WM_OnKey.o                          56
+    WM_ResizeWindow.o                  242
+    WM_SendMessageNoPara.o               4
+    WM_SendToParent.o                   28
+    WM_SetCapture.o                     88
+    WM_SetFocus.o                      148
+    WM_SetFocusOnNextChild.o           144
+    WM_SetFocusOnPrevChild.o            82
+    WM_SetScrollState.o                 26
+    WM_SetScrollbar.o                   66
+    WM_SetSize.o                        66
+    WM_SetTrans.o                       26
+    WM_SetUserClipRect.o                24
+    WM_Show.o                           82
+    WM_Timer.o                         284
+    WM_Touch.o                                            80
+    WM__ForEachDesc.o                   44
+    WM__GetFirstSibling.o               16
+    WM__GetFocussedChild.o              40
+    WM__GetLastSibling.o                26
+    WM__GetPrevSibling.o                34
+    WM__IsAncestor.o                    48
+    WM__IsChild.o                       34
+    WM__Screen2Client.o                 20
+    WM__SendMessage.o                   64                 4
+    WM__SendMessageNoPara.o             40
+    WM__UpdateChildPositions.o         210
+    --------------------------------------------------------
+    Total:                          45 682   14 262    1 084
+
+dl7M_tlf.a: [4]
+    errno.o                             12        3        4
+    exit.o                               4
+    low_level_init.o                     4
+    xtls.o                               2
+    --------------------------------------------------------
+    Total:                              22        3        4
+
+m7M_tls.a: [5]
+    DblAdd.o                           232
+    DblCmpEq.o                          32
+    DblCmpGe.o                          46
+    DblCmpLe.o                          46
+    DblDiv.o                           598
+    DblMul.o                           418
+    DblSub.o                           384
+    DblToFlt.o                         144
+    DblToI32.o                          76
+    FltToDbl.o                          78
+    I32ToDbl.o                          48
+    ceil.o                             110
+    floor.o                            110
+    fmod.o                             424
+    fpinit_M.o                          34
+    sin.o                               18
+    xdint.o                            122
+    xquad.o                            360
+    xsin.o                           1 104
+    --------------------------------------------------------
+    Total:                           4 384
+
+rt7M_tl.a: [6]
+    ABImemclr.o                          6
+    ABImemclr4.o                         6
+    ABImemcpy_unaligned.o              118
+    ABImemmove_unaligned.o             120
+    ABImemset.o                        102
+    ABImemset48.o                       50
+    cexit.o                             10
+    cmain.o                             26
+    cstartup_M.o                        12
+    data_init.o                         40
+    iarEdom.o                           12
+    packbits_init_single.o              56
+    strcpy_unaligned.o                  68
+    strlen.o                            54
+    zero_init3.o                        64
+    --------------------------------------------------------
+    Total:                             744
+
+shb_l.a: [7]
+    exit.o                              20
+    --------------------------------------------------------
+    Total:                              20
+
+    Gaps                                80        4
+    Linker created                               32    8 192
+------------------------------------------------------------
+    Grand Total:                    61 308   14 506    9 608
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0801244c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0801246c          --   Gb  - Linker created -
+?main                   0x080124a5         Code  Gb  cmain.o [6]
+APBAHBPrescTable        0x08012530   0x10  Data  Gb  stm32f4xx_hal_rcc.o [1]
+API                     0x08003074   0x18  Data  Lc  GUIDEV_UsageBM.o [3]
+CSTACK$$Base            0x20000130          --   Gb  - Linker created -
+CSTACK$$Limit           0x20002130          --   Gb  - Linker created -
+CreateWindow            0x080060e3   0x1e  Code  Gb  WindowDLG.o [1]
+FMC_Initialized         0x20002560    0x4  Data  Lc  stm32f4xx_hal_msp.o [1]
+FMC_SDRAM_Init          0x08005745   0x74  Code  Gb  stm32f4xx_ll_fmc.o [1]
+FMC_SDRAM_ProgramRefreshRate
+                        0x0800589f    0xc  Code  Gb  stm32f4xx_ll_fmc.o [1]
+FMC_SDRAM_SendCommand   0x0800584f   0x50  Code  Gb  stm32f4xx_ll_fmc.o [1]
+FMC_SDRAM_Timing_Init   0x080057b9   0x96  Code  Gb  stm32f4xx_ll_fmc.o [1]
+GL_DrawLine             0x08008e37   0x10  Code  Gb  GUI_DrawLine.o [3]
+GL_DrawLine1Ex          0x08008b4b  0x1b4  Code  Gb  GUI_DrawLine.o [3]
+GL_DrawLineEx           0x08008d0f  0x128  Code  Gb  GUI_DrawLine.o [3]
+GL_DrawPoint            0x0800a2d1   0x1c  Code  Gb  GUI_DrawPoint.o [3]
+GL_FP_Cnt               0x200024fc    0x4  Data  Lc  GUI_FillPolygon.o [3]
+GL_FillCircle           0x0800ac95   0xae  Code  Gb  GUI_Circ.o [3]
+GL_FillPolygon          0x0800a37d  0x154  Code  Gb  GUI_FillPolygon.o [3]
+GL_SetDefault           0x08002661   0x3a  Code  Gb  GUI_SetDefault.o [3]
+GRAPH_AttachData        0x08006ca9   0x2c  Code  Gb  GRAPH.o [3]
+GRAPH_AttachScale       0x08006cdb   0x2c  Code  Gb  GRAPH.o [3]
+GRAPH_Callback          0x08006ba9   0x86  Code  Gb  GRAPH.o [3]
+GRAPH_CreateIndirect    0x08012311   0x38  Code  Gb  GRAPH_CreateIndirect.o [3]
+GRAPH_CreateUser        0x08006c2f   0x72  Code  Gb  GRAPH.o [3]
+GRAPH_DATA_YT_AddValue  0x080072f9   0x2c  Code  Gb  GRAPH_DATA_YT.o [3]
+GRAPH_DATA_YT_Create    0x08007285   0x66  Code  Gb  GRAPH_DATA_YT.o [3]
+GRAPH_SCALE_Create      0x0800704f   0x54  Code  Gb  GRAPH_SCALE.o [3]
+GRAPH_SCALE_SetFactor   0x080070cd   0x3e  Code  Gb  GRAPH_SCALE.o [3]
+GRAPH_SCALE_SetTextColor
+                        0x080070a3   0x22  Code  Gb  GRAPH_SCALE.o [3]
+GRAPH_SetBorder         0x08006dbb   0x34  Code  Gb  GRAPH.o [3]
+GRAPH_SetColor          0x08006d11   0x2e  Code  Gb  GRAPH.o [3]
+GRAPH_SetGridDistX      0x08006d69   0x26  Code  Gb  GRAPH.o [3]
+GRAPH_SetGridDistY      0x08006d8f   0x26  Code  Gb  GRAPH.o [3]
+GRAPH_SetGridVis        0x08006d3f   0x2a  Code  Gb  GRAPH.o [3]
+GRAPH_SetLineStyleH     0x08006e0b   0x2a  Code  Gb  GRAPH.o [3]
+GRAPH_SetLineStyleV     0x08006e35   0x2a  Code  Gb  GRAPH.o [3]
+GRAPH_SetUserDraw       0x08006def   0x1c  Code  Gb  GRAPH.o [3]
+GRAPH__AddValue         0x08006b4b   0x5e  Code  Gb  GRAPH.o [3]
+GRAPH__DefaultProps     0x2000006c   0x30  Data  Gb  GRAPH.o [3]
+GRAPH__InvalidateGraph  0x08006ae3   0x68  Code  Gb  GRAPH.o [3]
+GUIDRV_Lin_32_API       0x08012380   0x34  Data  Gb  GUIDRV_Lin_32.o [3]
+GUIMONO_DispChar        0x08011235  0x106  Code  Gb  GUI_CharM.o [3]
+GUIMONO_GetCharDistX    0x08011355   0x12  Code  Gb  GUI_CharM.o [3]
+GUIMONO_GetFontInfo     0x0801136d    0x6  Code  Gb  GUI_CharM.o [3]
+GUIMONO_IsInFont        0x08011373   0x36  Code  Gb  GUI_CharM.o [3]
+GUIPROP_DispChar        0x08011b09   0xc8  Code  Gb  GUI_CharP.o [3]
+GUIPROP_GetCharDistX    0x08011bd1   0x36  Code  Gb  GUI_CharP.o [3]
+GUIPROP_GetFontInfo     0x08011c0d    0x6  Code  Gb  GUI_CharP.o [3]
+GUIPROP_IsInFont        0x08011c13    0xe  Code  Gb  GUI_CharP.o [3]
+GUIPROP__FindChar       0x08011af5   0x14  Code  Gb  GUI_CharP.o [3]
+GUI_ALLOC_AllocInit     0x0800a4dd   0x3c  Code  Gb  GUI_ALLOC_AllocInit.o [3]
+GUI_ALLOC_AllocNoInit   0x08001833    0xa  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_AllocZero     0x08001df9   0x24  Code  Gb  GUI_ALLOC_AllocZero.o [3]
+GUI_ALLOC_AssignMemory  0x080018e3    0xc  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_Free          0x08001907   0x2c  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_FreeFixedBlock
+                        0x0800177b   0x10  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_FreePtr       0x08001933   0x10  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_GetFixedBlock
+                        0x0800178b   0xa8  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_GetMaxSize    0x0800188d   0x36  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_GetSize       0x080018ef   0x18  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_LockH         0x0800184d   0x16  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_Realloc       0x080088ab   0x54  Code  Gb  GUI_Realloc.o [3]
+GUI_ALLOC_RequestSize   0x080018c3   0x20  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_UnlockH       0x08001863   0x2a  Code  Gb  GUI_Alloc.o [3]
+GUI_ALLOC__Context      0x20002130   0xbc  Data  Gb  GUI_Alloc.o [3]
+GUI_ALLOC_h2p           0x0800183d   0x10  Code  Gb  GUI_Alloc.o [3]
+GUI_ARRAY_AddItem       0x08008f8b   0x70  Code  Gb  GUI_ARRAY.o [3]
+GUI_ARRAY_Create        0x08009075    0x6  Code  Gb  GUI_ARRAY.o [3]
+GUI_ARRAY_Delete        0x08008ffb   0x50  Code  Gb  GUI_ARRAY.o [3]
+GUI_ARRAY_GetNumItems   0x08008f73   0x18  Code  Gb  GUI_ARRAY.o [3]
+GUI_ARRAY_GethItem      0x08009059   0x1c  Code  Gb  GUI_ARRAY.o [3]
+GUI_ARRAY__GethItem     0x08008f51   0x22  Code  Gb  GUI_ARRAY.o [3]
+GUI_AddDecMin           0x080084bb   0x1c  Code  Gb  GUI_AddDecMin.o [3]
+GUI_AddDecShift         0x0800a011   0x96  Code  Gb  GUI_AddDecShift.o [3]
+GUI_AddSign             0x08009ff9   0x18  Code  Gb  GUI_AddDecShift.o [3]
+GUI_CalcColorDist       0x0801209d   0x3e  Code  Gb  GUI_CalcColorDist.o [3]
+GUI_CharInfoF8x15B_ASCII
+                        0x0800db38  0x300  Data  Gb  F8x15B_ASCII.o [3]
+GUI_CharLine_pfLog2Vis  0x20000104    0x4  Data  Gb  GUI_CharLine.o [3]
+GUI_Clear               0x0800296b   0x1a  Code  Gb  GUI_Core.o [3]
+GUI_ClearRect           0x08002911   0x5a  Code  Gb  GUI_Core.o [3]
+GUI_CreateDialogBox     0x080083f9   0xa4  Code  Gb  DIALOG.o [3]
+GUI_DEVICE_Create       0x08002b37   0x46  Code  Gb  GUI_Device.o [3]
+GUI_DEVICE_CreateAndLink
+                        0x08002be9   0x24  Code  Gb  GUI_Device.o [3]
+GUI_DEVICE_Delete       0x08002b33    0x4  Code  Gb  GUI_Device.o [3]
+GUI_DEVICE_Link         0x08002b7f   0x6a  Code  Gb  GUI_Device.o [3]
+GUI_DEVICE_Unlink       0x08002b7d    0x2  Code  Gb  GUI_Device.o [3]
+GUI_DEVICE__GetpDriver  0x08002b13   0x20  Code  Gb  GUI_Device.o [3]
+GUI_DecChar             0x2000000c    0x1  Data  Gb  GUI_Core.o [3]
+GUI_DispDecShift        0x0800a733   0x10  Code  Gb  GUI_Val.o [3]
+GUI_DispFloatMin        0x08009319    0x4  Code  Gb  GUI_Valf.o [3]
+GUI_DispSDecShift       0x0800a743   0x2c  Code  Gb  GUI_Val.o [3]
+GUI_DispString          0x0800b28d   0xfc  Code  Gb  GUI_DispString.o [3]
+GUI_DispStringAt        0x08011225   0x10  Code  Gb  GUI_DispStringAt.o [3]
+GUI_DispStringInRectEx  0x08005ea9   0x7c  Code  Gb  GUI_DispStringInRectEx.o [3]
+GUI_DispStringInRectMax
+                        0x08008135   0x42  Code  Gb  GUI_DispStringInRect.o [3]
+GUI_DispStringInRectWrap
+                        0x08011535  0x108  Code  Gb  GUI_DispStringInRectWrap.o [3]
+GUI_DrawGradientH       0x08010de5   0x42  Code  Gb  GUI_DrawGradient.o [3]
+GUI_DrawGradientV       0x08010da5   0x38  Code  Gb  GUI_DrawGradient.o [3]
+GUI_DrawGraphEx         0x080094fb   0x44  Code  Gb  GUI_DrawGraphEx.o [3]
+GUI_DrawHLine           0x08008ec5   0x4c  Code  Gb  GUI_DrawHLine.o [3]
+GUI_DrawLine            0x08008e47   0x30  Code  Gb  GUI_DrawLine.o [3]
+GUI_DrawRect            0x08011d49   0x80  Code  Gb  GUI_2DLib.o [3]
+GUI_DrawVLine           0x080089a9   0x44  Code  Gb  GUI_DrawVLine.o [3]
+GUI_Exec                0x08007351   0x14  Code  Gb  GUI_Exec.o [3]
+GUI_Exec1               0x0800732d   0x1e  Code  Gb  GUI_Exec.o [3]
+GUI_F6x8_Mono           0x080104e8   0x14  Data  Lc  F6x8.o [3]
+GUI_F6x8_TI8859_1       0x080104e0    0x8  Data  Lc  F6x8.o [3]
+GUI_F6x8_TL8859_1       0x08010320  0x1c0  Data  Lc  F6x8.o [3]
+GUI_FillRect            0x0800ac4d   0x48  Code  Gb  GUI_FillRect.o [3]
+GUI_FillRectEx          0x0800a263   0x14  Code  Gb  GUI_FillRectEx.o [3]
+GUI_Font13ASCII_CharInfo
+                        0x0800e47c  0x2f8  Data  Lc  F13_ASCII.o [3]
+GUI_Font13ASCII_Prop1   0x0800e774    0xc  Data  Gb  F13_ASCII.o [3]
+GUI_Font13_1            0x0800d514   0x24  Data  Gb  F13_1.o [3]
+GUI_Font13_1_CharInfo   0x0800d208  0x300  Data  Lc  F13_1.o [3]
+GUI_Font13_1_Prop1      0x0800d508    0xc  Data  Lc  F13_1.o [3]
+GUI_Font16B_ASCII       0x0800c124   0x24  Data  Gb  F16B_ASCII.o [3]
+GUI_Font16B_ASCII_CharInfo
+                        0x0800be20  0x2f8  Data  Gb  F16B_ASCII.o [3]
+GUI_Font16B_ASCII_Prop1
+                        0x0800c118    0xc  Data  Lc  F16B_ASCII.o [3]
+GUI_Font6x8             0x080104fc   0x24  Data  Gb  F6x8.o [3]
+GUI_Font8x10ASCII_CharInfo
+                        0x0800fad8  0x300  Data  Lc  F8x10_ASCII.o [3]
+GUI_Font8x10ASCII_Prop1
+                        0x0800fdd8    0xc  Data  Lc  F8x10_ASCII.o [3]
+GUI_Font8x10_ASCII      0x0800fde4   0x24  Data  Gb  F8x10_ASCII.o [3]
+GUI_Font8x15B_ASCII     0x0800de44   0x24  Data  Gb  F8x15B_ASCII.o [3]
+GUI_FontPropF8x15B_ASCII_1
+                        0x0800de38    0xc  Data  Lc  F8x15B_ASCII.o [3]
+GUI_GetBitsPerPixelEx   0x08002df1    0xe  Code  Gb  LCD_GetEx.o [3]
+GUI_GetBkColor          0x08010e53    0x8  Code  Gb  GUI_GetColor.o [3]
+GUI_GetCharDistX        0x08009b4b    0x6  Code  Gb  GUI_Char.o [3]
+GUI_GetCharDistXEx      0x08009b59    0x8  Code  Gb  GUI_Char.o [3]
+GUI_GetClientRect       0x08009b69    0xa  Code  Gb  GUI_GetClientRect.o [3]
+GUI_GetColor            0x08010e5b    0x6  Code  Gb  GUI_GetColor.o [3]
+GUI_GetFontDistY        0x08009b41    0xa  Code  Gb  GUI_Char.o [3]
+GUI_GetFontSizeY        0x08005e65    0x4  Code  Gb  GUI_GetFontSizeY.o [3]
+GUI_GetLineStyle        0x0800899d    0xc  Code  Gb  GUI_GetLineStyle.o [3]
+GUI_GetOrg              0x08003b65    0x2  Code  Gb  GUI_GetOrg.o [3]
+GUI_GetStringDistX      0x080084d7   0x14  Code  Gb  GUI_GetStringDistX.o [3]
+GUI_GetTime             0x08003a0b    0x4  Code  Gb  GUI_Time.o [3]
+GUI_GetYAdjust          0x08009b15   0x2c  Code  Gb  GUI_Char.o [3]
+GUI_GetpfColor2IndexEx  0x08002e29    0xc  Code  Gb  LCD_GetEx.o [3]
+GUI_GetpfIndex2ColorEx  0x08002e1d    0xc  Code  Gb  LCD_GetEx.o [3]
+GUI_GotoXY              0x08003c99    0xc  Code  Gb  GUI_Goto.o [3]
+GUI_Init                0x080029a7   0xa6  Code  Gb  GUI_Core.o [3]
+GUI_Long2Len            0x08009fd5   0x24  Code  Gb  GUI_AddDecShift.o [3]
+GUI_MEMDEV_Clear        0x08003c25   0x3c  Code  Gb  GUIDEV_Clear.o [3]
+GUI_MEMDEV_CopyToLCD    0x08001cf9    0x6  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV_CopyToLCDAt  0x08001c5d   0x9c  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV_CreateEx     0x08001b97   0x72  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV_DEVICE_32    0x0800f04c   0x34  Data  Gb  GUIDEV_32.o [3]
+GUI_MEMDEV_Delete       0x08001b57   0x3a  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV_Draw         0x080026a5  0x112  Code  Gb  GUIDEV_Banding.o [3]
+GUI_MEMDEV_GetBitsPerPixel
+                        0x08001b33   0x24  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV_GetDataPtr   0x080040b7   0x18  Code  Gb  GUIDEV_GetDataPtr.o [3]
+GUI_MEMDEV_GetYSize     0x08003b69   0x28  Code  Gb  GUIDEV_GetYSize.o [3]
+GUI_MEMDEV_Paint1Static
+                        0x080119f3   0x14  Code  Gb  GUIDEV_StaticDevices.o [3]
+GUI_MEMDEV_ReduceYSize  0x08003b91   0x2c  Code  Gb  GUIDEV_ReduceYSize.o [3]
+GUI_MEMDEV_Select       0x08001c09   0x54  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV_SetOrg       0x08003bbd   0x68  Code  Gb  GUIDEV_SetOrg.o [3]
+GUI_MEMDEV_Write        0x08011ae9    0x6  Code  Gb  GUIDEV_Write.o [3]
+GUI_MEMDEV_WriteAt      0x08011a7d   0x6c  Code  Gb  GUIDEV_Write.o [3]
+GUI_MEMDEV__CreateFixed
+                        0x08001a45   0xee  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV__WriteToActiveAlpha
+                        0x08011dd1  0x10c  Code  Gb  GUIDEV_WriteToActiveAlpha.o [3]
+GUI_MEMDEV__WriteToActiveAt
+                        0x08001a15   0x30  Code  Gb  GUIDEV.o [3]
+GUI_MEMDEV__WriteToActiveOpaque
+                        0x080036b1   0x3c  Code  Gb  GUIDEV_WriteToActiveOpaque.o [3]
+GUI_MergeRect           0x08001991   0x58  Code  Gb  GUI_MergeRect.o [3]
+GUI_MoveRect            0x080019f9   0x1c  Code  Gb  GUI_MoveRect.o [3]
+GUI_OrgX                0x20002588    0x2  Data  Gb  GUI_Core.o [3]
+GUI_OrgY                0x2000258a    0x2  Data  Gb  GUI_Core.o [3]
+GUI_PollKeyMsg          0x08002809   0x28  Code  Gb  GUI_OnKey.o [3]
+GUI_Pow10               0x0800a0ac   0x28  Data  Gb  GUI_AddDecShift.o [3]
+GUI_ReadRectEx          0x0800f4cd   0x54  Code  Gb  LCD_ReadRect.o [3]
+GUI_RectDispString      0x2000254c    0x8  Data  Gb  GUI_DispStringInRectEx.o [3]
+GUI_RectsIntersect      0x08001d81   0x38  Code  Gb  GUI_RectsIntersect.o [3]
+GUI_RestoreContext      0x080027cb    0xc  Code  Gb  GUI_SaveContext.o [3]
+GUI_SaveContext_W       0x080027c1    0xa  Code  Gb  GUI_SaveContext.o [3]
+GUI_SelectLCD           0x0800308d   0x12  Code  Gb  GUI_SelectLCD.o [3]
+GUI_SelectLayer         0x08001fd9   0x1c  Code  Gb  GUI_SelectLayer.o [3]
+GUI_SetBkColor          0x080027dd    0x4  Code  Gb  GUI_SetColor.o [3]
+GUI_SetClipRect         0x08011799    0x4  Code  Gb  GUI_SetClipRect.o [3]
+GUI_SetColor            0x080027e1    0x4  Code  Gb  GUI_SetColor.o [3]
+GUI_SetDefaultFont      0x0800290b    0x6  Code  Gb  GUI_Core.o [3]
+GUI_SetDrawMode         0x08003111    0x4  Code  Gb  GUI_SetDrawMode.o [3]
+GUI_SetFont             0x08003afd   0x14  Code  Gb  GUI_SetFont.o [3]
+GUI_SetLineStyle        0x08003b11   0x10  Code  Gb  GUI_SetLineStyle.o [3]
+GUI_SetOrg              0x08003d91   0x30  Code  Gb  GUI_SetOrg.o [3]
+GUI_SetPenSize          0x08003ac5    0xc  Code  Gb  GUI_Pen.o [3]
+GUI_SetTextAlign        0x08003ad5   0x14  Code  Gb  GUI_SetTextAlign.o [3]
+GUI_SetTextMode         0x08003ae9   0x14  Code  Gb  GUI_SetTextMode.o [3]
+GUI_SignalEvent         0x080019e9    0xc  Code  Gb  GUI_WaitEvent.o [3]
+GUI_StoreKey            0x080027fd    0xc  Code  Gb  GUI_OnKey.o [3]
+GUI_TIMER_Create        0x080038af   0x7a  Code  Gb  GUI_Timer.o [3]
+GUI_TIMER_Delete        0x0800393b   0x56  Code  Gb  GUI_Timer.o [3]
+GUI_TIMER_Exec          0x08003851   0x5e  Code  Gb  GUI_Timer.o [3]
+GUI_TIMER_GetFlag       0x080039e9   0x22  Code  Gb  GUI_Timer.o [3]
+GUI_TIMER_Restart       0x080039bb   0x2e  Code  Gb  GUI_Timer.o [3]
+GUI_TIMER_SetPeriod     0x080039a5   0x16  Code  Gb  GUI_Timer.o [3]
+GUI_TIMER__GetFirstTimer
+                        0x080037f9   0x20  Code  Gb  GUI_Timer.o [3]
+GUI_TIMER__GetNextTimerLin
+                        0x08003819   0x2c  Code  Gb  GUI_Timer.o [3]
+GUI_UC_None             0x08012418   0x10  Data  Gb  GUI_UC_EncodeNone.o [3]
+GUI_UC__GetCharCodeInc  0x08009d29   0x22  Code  Gb  GUI_UC.o [3]
+GUI_UC__NumChars2NumBytes
+                        0x08009d4b   0x24  Code  Gb  GUI_UC.o [3]
+GUI_USAGE_AddRect       0x080030c3   0x2a  Code  Gb  GUIDEV_Usage.o [3]
+GUI_USAGE_BM_AddHLine   0x08002f13   0x72  Code  Lc  GUIDEV_UsageBM.o [3]
+GUI_USAGE_BM_AddPixel   0x08002ee9   0x2a  Code  Lc  GUIDEV_UsageBM.o [3]
+GUI_USAGE_BM_Clear      0x08002f85    0xe  Code  Lc  GUIDEV_UsageBM.o [3]
+GUI_USAGE_BM_Create     0x08003029   0x4c  Code  Gb  GUIDEV_UsageBM.o [3]
+GUI_USAGE_BM_GetNextDirty
+                        0x08002f93   0x92  Code  Lc  GUIDEV_UsageBM.o [3]
+GUI_USAGE_DecUseCnt     0x080030a1   0x22  Code  Gb  GUIDEV_Usage.o [3]
+GUI_WrapGetNumLines     0x08011513   0x22  Code  Gb  GUI_DispStringInRectWrap.o [3]
+GUI_X_Config            0x08003ca9   0x1c  Code  Gb  GUIConf_STM32F429DISCO.o [1]
+GUI_X_GetTime           0x08003d69    0x6  Code  Gb  GUI_X.o [1]
+GUI_X_Init              0x08003d75    0x2  Code  Gb  GUI_X.o [1]
+GUI__AllocAlphaBuffer   0x0800f343   0x16  Code  Gb  GUI__Alpha.o [3]
+GUI__AlphaSuppressMixing
+                        0x08011a59   0x20  Code  Gb  GUI_SetAlpha.o [3]
+GUI__CompactPixelIndices
+                        0x08003e6d  0x120  Code  Gb  GUI__CompactPixelIndices.o [3]
+GUI__CompactPixelIndicesEx
+                        0x08003f8d  0x124  Code  Gb  GUI__CompactPixelIndices.o [3]
+GUI__Config             0x08002985   0x22  Code  Gb  GUI_Core.o [3]
+GUI__Context            0x20002294   0x78  Data  Lc  GUI_Core.o [3]
+GUI__DispLine           0x08009c7b   0x9e  Code  Gb  GUI_CharLine.o [3]
+GUI__DispStringInRect   0x08007ff5  0x13c  Code  Gb  GUI_DispStringInRect.o [3]
+GUI__DivideRound32      0x0800b61b   0x1a  Code  Gb  GUI__DivideRound32.o [3]
+GUI__DoAlphaBlending    0x0800f107  0x1b2  Code  Gb  GUI__Alpha.o [3]
+GUI__ExpandPixelIndicesEx
+                        0x0800f52b  0x12c  Code  Gb  GUI__ExpandPixelIndices.o [3]
+GUI__GetAlphaBuffer     0x0800f2b9   0x82  Code  Gb  GUI__Alpha.o [3]
+GUI__GetFontSizeY       0x08007fe1   0x14  Code  Gb  GUI__GetFontSizeY.o [3]
+GUI__GetLineDistX       0x08009c2d   0x4e  Code  Gb  GUI_CharLine.o [3]
+GUI__GetLineNumChars    0x08009bdb   0x36  Code  Gb  GUI_CharLine.o [3]
+GUI__GetNumChars        0x0800a0d5   0x1a  Code  Gb  GUI__GetNumChars.o [3]
+GUI__GetOrg             0x08003b49   0x12  Code  Gb  GUI_GetOrg.o [3]
+GUI__GetOverlap         0x08009c11   0x1c  Code  Gb  GUI_CharLine.o [3]
+GUI__HandleEOLine       0x08009d75   0x16  Code  Gb  GUI__HandleEOLine.o [3]
+GUI__IntersectRect      0x08001951   0x40  Code  Gb  GUI__IntersectRect.o [3]
+GUI__IntersectRects     0x08001d1f   0x62  Code  Gb  GUI__IntersectRects.o [3]
+GUI__ManageCache        0x080028d5    0xa  Code  Gb  GUI__ManageCache.o [3]
+GUI__ManageCacheEx      0x08002839   0x90  Code  Gb  GUI__ManageCache.o [3]
+GUI__MixColors          0x0800f0a5   0x62  Code  Gb  GUI__Alpha.o [3]
+GUI__ReduceRect         0x08008191   0x1a  Code  Gb  GUI__ReduceRect.o [3]
+GUI__RegisterExit       0x08002a4d    0xa  Code  Gb  GUI_Core.o [3]
+GUI__SetText            0x08009f39   0x6e  Code  Gb  GUI__SetText.o [3]
+GUI__WrapGetNumBytesToNextLine
+                        0x08011785   0x14  Code  Gb  GUI__Wrap.o [3]
+GUI__WrapGetNumCharsDisp
+                        0x0801172d    0x4  Code  Gb  GUI__Wrap.o [3]
+GUI__WrapGetNumCharsToNextLine
+                        0x08011731   0x54  Code  Gb  GUI__Wrap.o [3]
+GUI__Wrap_pfGetCharWrap
+                        0x2000010c    0x4  Data  Gb  GUI__Wrap.o [3]
+GUI__Wrap_pfGetWordWrap
+                        0x20000108    0x4  Data  Gb  GUI__Wrap.o [3]
+GUI__apDevice           0x2000230c    0x8  Data  Gb  GUI_Core.o [3]
+GUI__memset             0x08002ca3   0x54  Code  Gb  GUI__memset.o [3]
+GUI__pFontDefault       0x20000014    0x4  Data  Gb  GUI_Core.o [3]
+GUI__pfMixColors        0x200000e4    0x4  Data  Gb  GUI__Alpha.o [3]
+GUI__strcmp             0x0800a9b1   0x24  Code  Gb  GUI__strcmp.o [3]
+GUI__strcmp_hp          0x0800a9d9   0x20  Code  Gb  GUI__strcmp.o [3]
+GUI__strlen             0x0800a9f9   0x14  Code  Gb  GUI__strlen.o [3]
+GUI_acFont6x8           0x0800fe08  0x518  Data  Lc  F6x8.o [3]
+GUI_cos                 0x08008a49    0x6  Code  Gb  GUI_DrawLine.o [3]
+GUI_pContext            0x20000018    0x4  Data  Gb  GUI_Core.o [3]
+GUI_pLCD_APIList        0x20002570    0x4  Data  Gb  GUI_Core.o [3]
+GUI_pUC_API             0x20000010    0x4  Data  Gb  GUI_Core.o [3]
+GUI_pfDispCharStyle     0x2000256c    0x4  Data  Gb  GUI_Core.o [3]
+GUI_pfTimerExec         0x20002564    0x4  Data  Gb  GUI_Core.o [3]
+GUI_sin                 0x080089f7   0x52  Code  Gb  GUI_DrawLine.o [3]
+HAL_Delay               0x08004df5   0x1e  Code  Wk  stm32f4xx_hal.o [1]
+HAL_FMC_MspInit         0x0800440d   0xf8  Code  Lc  stm32f4xx_hal_msp.o [1]
+HAL_GPIO_Init           0x08004a99  0x1f2  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08004c8b   0x14  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x08004def    0x6  Code  Wk  stm32f4xx_hal.o [1]
+HAL_IncTick             0x08004de3    0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x08004d85   0x3a  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x08004dbf   0x24  Code  Wk  stm32f4xx_hal.o [1]
+HAL_LTDC_ConfigLayer    0x08007d51   0x50  Code  Gb  stm32f4xx_hal_ltdc.o [1]
+HAL_LTDC_Init           0x08007c25  0x12c  Code  Gb  stm32f4xx_hal_ltdc.o [1]
+HAL_LTDC_MspInit        0x080041f3  0x132  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_MspInit             0x080041dd   0x16  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_SetPriority    0x08004a25   0x22  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08004a1d    0x8  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_PWREx_EnableOverDrive
+                        0x080078d5   0x82  Code  Gb  stm32f4xx_hal_pwr_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08007965  0x286  Code  Gb  stm32f4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x08005be1  0x18a  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08005df7   0x28  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08005d6b   0x8c  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080058ad  0x334  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SDRAM_Init          0x08004ce1   0x44  Code  Gb  stm32f4xx_hal_sdram.o [1]
+HAL_SDRAM_MspInit       0x08004505    0x8  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_SDRAM_ProgramRefreshRate
+                        0x08004d5d   0x26  Code  Gb  stm32f4xx_hal_sdram.o [1]
+HAL_SDRAM_SendCommand   0x08004d25   0x38  Code  Gb  stm32f4xx_hal_sdram.o [1]
+HAL_SPI_Init            0x08004e1d   0x9e  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08004325   0xe8  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_SPI_Transmit        0x08004ebb  0x18a  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08004a4f   0x20  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_Callback    0x08004a95    0x2  Code  Wk  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08004a47    0x8  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08004a8d    0x8  Code  Gb  stm32f4xx_hal_cortex.o [1]
+LCD_AA_MixColors        0x08010e8b   0x16  Code  Gb  LCD_AA.o [3]
+LCD_AA_SetAndMask       0x08010e81    0xa  Code  Gb  LCD_AA.o [3]
+LCD_APIListCCW          0x200000b8    0x8  Data  Gb  LCD_RotateCCW.o [3]
+LCD_API_ColorConv_0     0x08012518   0x18  Data  Gb  GUICC_0.o [3]
+LCD_API_ColorConv_8888  0x080124e8   0x18  Data  Gb  GUICC_8888.o [3]
+LCD_API_ColorConv_M8888I
+                        0x08012500   0x18  Data  Gb  GUICC_M8888I.o [3]
+LCD_Color2Index         0x080025f9   0x12  Code  Gb  LCD.o [3]
+LCD_DrawBitmap          0x08002343  0x1d8  Code  Gb  LCD.o [3]
+LCD_DrawHLine           0x080020bd   0x3a  Code  Gb  LCD.o [3]
+LCD_DrawPixel           0x08002063   0x5a  Code  Gb  LCD.o [3]
+LCD_DrawVLine           0x080020f7   0x3a  Code  Gb  LCD.o [3]
+LCD_FillRect            0x08002147   0x54  Code  Gb  LCD.o [3]
+LCD_GetBitsPerPixelEx   0x08002dbd    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetBkColorIndex     0x08010e69    0xa  Code  Gb  LCD_GetColorIndex.o [3]
+LCD_GetColorIndex       0x08010e73    0xa  Code  Gb  LCD_GetColorIndex.o [3]
+LCD_GetMirrorXEx        0x08002dc5    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetMirrorYEx        0x08002dc9    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetNumColors        0x08002de1    0x8  Code  Gb  LCD_GetEx.o [3]
+LCD_GetNumColorsEx      0x08002dc1    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetNumLayers        0x08004113   0x1a  Code  Gb  LCD_GetNumDisplays.o [3]
+LCD_GetPalette          0x08002e15    0x8  Code  Gb  LCD_GetEx.o [3]
+LCD_GetPaletteEx        0x08002dff   0x16  Code  Gb  LCD_GetEx.o [3]
+LCD_GetPixelColor       0x08011045    0xe  Code  Gb  LCD_GetPixelColor.o [3]
+LCD_GetPixelIndex       0x08011055   0x54  Code  Gb  LCD_GetP.o [3]
+LCD_GetSwapXY           0x08002de9    0x8  Code  Gb  LCD_GetEx.o [3]
+LCD_GetSwapXYEx         0x08002dcd    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetVXSizeEx         0x08002db5    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetVXSizeMax        0x08002e41    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetVYSizeEx         0x08002db9    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetXSize            0x08002dd1    0x8  Code  Gb  LCD_GetEx.o [3]
+LCD_GetXSizeEx          0x08002dad    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_GetYSize            0x08002dd9    0x8  Code  Gb  LCD_GetEx.o [3]
+LCD_GetYSizeEx          0x08002db1    0x4  Code  Gb  LCD_GetEx.o [3]
+LCD_Index2Color         0x0800260b   0x12  Code  Gb  LCD.o [3]
+LCD_Index2Color_888     0x08002d6f    0x2  Code  Gb  GUICC_888_Index2Color.o [3]
+LCD_Index2Color_8888    0x08002cf7    0x2  Code  Gb  GUICC_8888_Index2Color.o [3]
+LCD_Init                0x08004907   0x1c  Code  Gb  stm32f4xx_hal_msp.o [1]
+LCD_InitColors          0x08003a21   0x28  Code  Gb  LCD_Color.o [3]
+LCD_InitLUT             0x08003a49   0x6c  Code  Gb  LCD_Color.o [3]
+LCD_PowerOn             0x0800466b  0x28c  Code  Gb  stm32f4xx_hal_msp.o [1]
+LCD_ReadRectEx          0x0800f375  0x150  Code  Lc  LCD_ReadRect.o [3]
+LCD_SelectLCD           0x08003e29   0x44  Code  Gb  LCD_SelectLCD.o [3]
+LCD_SetBkColor          0x08002641    0x8  Code  Gb  LCD.o [3]
+LCD_SetBkColorIndex     0x0800262f   0x12  Code  Gb  LCD.o [3]
+LCD_SetClipRectEx       0x08001289   0x30  Code  Gb  LCD_SetClipRectEx.o [3]
+LCD_SetClipRectMax      0x08002559   0x14  Code  Gb  LCD.o [3]
+LCD_SetColor            0x08002649    0x8  Code  Gb  LCD.o [3]
+LCD_SetColorIndex       0x0800261d   0x12  Code  Gb  LCD.o [3]
+LCD_SetDrawMode         0x08002059    0xa  Code  Gb  LCD.o [3]
+LCD_SetLUTEntryEx       0x080041b9   0x24  Code  Gb  LCD_Set.o [3]
+LCD_SetPixelAA          0x08010ea1   0x80  Code  Gb  LCD_AA.o [3]
+LCD_SetPixelAA_NoTrans  0x08010fa7   0x8e  Code  Gb  LCD_AA.o [3]
+LCD_SetPixelAA_Xor      0x08010f21   0x86  Code  Gb  LCD_AA.o [3]
+LCD_SetSizeEx           0x08004173   0x24  Code  Gb  LCD_Set.o [3]
+LCD_SetVRAMAddrEx       0x0800412d   0x22  Code  Gb  LCD_Set.o [3]
+LCD_SetVSizeEx          0x0800414f   0x24  Code  Gb  LCD_Set.o [3]
+LCD_UpdateColorIndices  0x080030ed   0x24  Code  Gb  LCD_UpdateColorIndices.o [3]
+LCD_WriteCommand        0x080045e5   0x42  Code  Gb  stm32f4xx_hal_msp.o [1]
+LCD_WriteData           0x08004629   0x42  Code  Gb  stm32f4xx_hal_msp.o [1]
+LCD_X_Config            0x08003cc5   0x54  Code  Gb  LCDConf_STM32F429DISCO.o [1]
+LCD_X_DisplayDriver     0x08003d21   0x46  Code  Gb  LCDConf_STM32F429DISCO.o [1]
+LCD__DrawBitmap_1bpp    0x0800219b  0x1a8  Code  Gb  LCD.o [3]
+LCD__GetBPP             0x08002e45   0x72  Code  Gb  LCD_GetEx.o [3]
+LCD__GetBPPDevice       0x08002eb7   0x32  Code  Gb  LCD_GetEx.o [3]
+LCD__aConvTable         0x200000cc    0x4  Data  Gb  LCD_Color.o [3]
+LCD__pSetColorAPI       0x200000c4    0x4  Data  Gb  LCD.o [3]
+LCD_aMirror             0x08011edc  0x100  Data  Gb  LCD_Mirror.o [3]
+LTDC_SetConfig          0x08007da1  0x236  Code  Lc  stm32f4xx_hal_ltdc.o [1]
+MX_FMC_Init             0x08005573   0x90  Code  Gb  main.o [1]
+MX_GPIO_Init            0x08005603   0xe6  Code  Gb  main.o [1]
+MX_LTDC_Init            0x0800540d   0xec  Code  Gb  main.o [1]
+MX_SPI5_Init            0x08005501   0x72  Code  Gb  main.o [1]
+NVIC_EncodePriority     0x080049b1   0x3e  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x08004985    0xa  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_SetPriority        0x0800498f   0x22  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x08004969   0x1c  Code  Lc  stm32f4xx_hal_cortex.o [1]
+PROGBAR_Callback        0x080062bd   0x4e  Code  Gb  PROGBAR.o [3]
+PROGBAR_CreateIndirect  0x080122d9   0x38  Code  Gb  PROGBAR_CreateIndirect.o [3]
+PROGBAR_CreateUser      0x0800630b   0xaa  Code  Gb  PROGBAR.o [3]
+PROGBAR_DrawSkinFlex    0x080111a7   0x7a  Code  Gb  PROGBAR_SkinFlex.o [3]
+PROGBAR_SetDefaultSkin  0x08006083   0x10  Code  Gb  PROGBAR_Skin.o [3]
+PROGBAR_SetValue        0x080063c7  0x144  Code  Gb  PROGBAR.o [3]
+PROGBAR__DefaultProps   0x20000050   0x18  Data  Gb  PROGBAR.o [3]
+PROGBAR__GetTextLocked  0x080061eb    0x6  Code  Gb  PROGBAR.o [3]
+PROGBAR__GetTextRect    0x080061f1   0x82  Code  Gb  PROGBAR.o [3]
+PROGBAR__Skin           0x20000044    0xc  Data  Gb  PROGBAR_Skin.o [3]
+PROGBAR__SkinClassic    0x080118d4    0xc  Data  Gb  PROGBAR_SkinClassic.o [3]
+PROGBAR__Value2Pos      0x08006273   0x4a  Code  Gb  PROGBAR.o [3]
+PROGBAR__pSkinDefault   0x20000068    0x4  Data  Gb  PROGBAR.o [3]
+Region$$Table$$Base     0x0801244c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0801246c          --   Gb  - Linker created -
+SCROLLBAR_AddValue      0x0800b225   0x20  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR_Callback      0x0800afab  0x16c  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR_CreateAttached
+                        0x0800a519   0x34  Code  Gb  SCROLLBAR_Create.o [3]
+SCROLLBAR_CreateEx      0x0800b1f9   0x24  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR_CreateUser    0x0800b11d   0xd2  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR_Dec           0x0800b21d    0x6  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR_GetValue      0x080090dd   0x1a  Code  Gb  SCROLLBAR_GetValue.o [3]
+SCROLLBAR_Inc           0x0800b223    0x2  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR_SetValue      0x0800b245   0x46  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR__DefaultProps
+                        0x200000e8   0x10  Data  Gb  SCROLLBAR.o [3]
+SCROLLBAR__DefaultWidth
+                        0x200000f8    0x2  Data  Gb  SCROLLBAR.o [3]
+SCROLLBAR__InvalidatePartner
+                        0x0800af8f   0x1c  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR__Rect2VRect   0x0800af5b   0x34  Code  Gb  SCROLLBAR.o [3]
+SCROLLBAR__SkinClassic  0x08010c30    0xc  Data  Gb  SCROLLBAR_SkinClassic.o [3]
+SCROLLBAR__ThumbSizeMin
+                        0x20000128    0x2  Data  Gb  SCROLLBAR.o [3]
+SCROLLBAR__pSkinDefault
+                        0x200000fc    0x4  Data  Gb  SCROLLBAR.o [3]
+SDRAM_Init              0x080048f7   0x10  Code  Gb  stm32f4xx_hal_msp.o [1]
+SDRAM_InitSequence      0x0800450d   0xd6  Code  Gb  stm32f4xx_hal_msp.o [1]
+SPI_CheckFlag_BSY       0x080050dd   0x28  Code  Lc  stm32f4xx_hal_spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                        0x08005045   0x98  Code  Lc  stm32f4xx_hal_spi.o [1]
+ShowData                0x20000000    0x4  Data  Gb  main.o [1]
+ShowData2               0x20000004    0x4  Data  Gb  main.o [1]
+SysTick_Config          0x080049ef   0x2e  Code  Lc  stm32f4xx_hal_cortex.o [1]
+SysTick_Handler         0x08012579    0xc  Code  Gb  stm32f4xx_it.o [1]
+SystemClock_Config      0x0800533b   0xd2  Code  Gb  main.o [1]
+SystemCoreClock         0x20000008    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x080121f1   0x4c  Code  Gb  system_stm32f4xx.o [1]
+TEXT_Callback           0x080113a9   0xc2  Code  Gb  TEXT.o [3]
+TEXT_CreateIndirect     0x0801229d   0x3c  Code  Gb  TEXT_CreateIndirect.o [3]
+TEXT_CreateUser         0x0801146b   0x84  Code  Gb  TEXT.o [3]
+TEXT_SetFont            0x080083d1   0x26  Code  Gb  TEXT_SetFont.o [3]
+TEXT_SetText            0x08008369   0x48  Code  Gb  TEXT_SetText.o [3]
+TEXT_SetTextAlign       0x080083b1   0x20  Code  Gb  TEXT_SetTextAlign.o [3]
+TEXT__DefaultProps      0x200000a8   0x10  Data  Gb  TEXT.o [3]
+UserDraw                0x08005111   0x60  Code  Gb  main.o [1]
+WIDGET_AndState         0x08008641   0x26  Code  Gb  WIDGET.o [3]
+WIDGET_EFFECT_3D_DrawUp
+                        0x08011d31   0x12  Code  Gb  WIDGET_Effect_3D.o [3]
+WIDGET_Effect_3D        0x08012488   0x1c  Data  Gb  WIDGET_Effect_3D.o [3]
+WIDGET_Effect_None      0x0801246c   0x1c  Data  Gb  WIDGET_Effect_None.o [3]
+WIDGET_HandleActive     0x08008679  0x128  Code  Gb  WIDGET.o [3]
+WIDGET_OrState          0x08008619   0x28  Code  Gb  WIDGET.o [3]
+WIDGET_SetEffect        0x08008891   0x1a  Code  Gb  WIDGET_SetEffect.o [3]
+WIDGET_SetState         0x080085f3   0x20  Code  Gb  WIDGET.o [3]
+WIDGET__DrawTriangle    0x080087eb   0x3a  Code  Gb  WIDGET.o [3]
+WIDGET__EFFECT_DrawDownRect
+                        0x08008825   0x34  Code  Gb  WIDGET.o [3]
+WIDGET__EFFECT_DrawUpRect
+                        0x08008859   0x2a  Code  Gb  WIDGET.o [3]
+WIDGET__FillRectEx      0x080087cd   0x1e  Code  Gb  WIDGET.o [3]
+WIDGET__GetClientRect   0x0800856d   0x34  Code  Gb  WIDGET.o [3]
+WIDGET__GetInsideRect   0x080085a1   0x1a  Code  Gb  WIDGET.o [3]
+WIDGET__GetXSize        0x080085bb   0x1a  Code  Gb  WIDGET.o [3]
+WIDGET__GetYSize        0x080085d5   0x18  Code  Gb  WIDGET.o [3]
+WIDGET__Init            0x0800866d    0xc  Code  Gb  WIDGET.o [3]
+WIDGET__RotateRect90    0x08008547   0x26  Code  Gb  WIDGET.o [3]
+WIDGET__SetScrollState  0x080087a7   0x26  Code  Gb  WIDGET.o [3]
+WINDOW_Callback         0x080081ad   0xfe  Code  Gb  WINDOW.o [3]
+WINDOW_CreateIndirect   0x0800832d   0x3c  Code  Gb  WINDOW.o [3]
+WINDOW_CreateUser       0x080082cd   0x58  Code  Gb  WINDOW.o [3]
+WINDOW_SetBkColor       0x080082b1   0x1c  Code  Gb  WINDOW.o [3]
+WINDOW__DefaultBkColor  0x200000c0    0x4  Data  Gb  WINDOW.o [3]
+WM_Activate             0x08001129    0xc  Code  Gb  WM.o [3]
+WM_BringToBottom        0x08001e1d   0x82  Code  Gb  WM_BringToBottom.o [3]
+WM_BringToTop           0x0800a1d9   0x6c  Code  Gb  WM_BringToTop.o [3]
+WM_CheckScrollBounds    0x080090bd   0x20  Code  Gb  WM_CheckScrollPos.o [3]
+WM_CreateTimer          0x08001f3d   0x56  Code  Gb  WM_Timer.o [3]
+WM_CreateWindowAsChild  0x080007f7  0x13e  Code  Gb  WM.o [3]
+WM_Deactivate           0x08001135    0xe  Code  Gb  WM.o [3]
+WM_DefaultProc          0x08001143   0x44  Code  Gb  WM.o [3]
+WM_DeleteTimer          0x08001f1d   0x20  Code  Gb  WM_Timer.o [3]
+WM_DeleteWindow         0x0800093f   0xc0  Code  Gb  WM.o [3]
+WM_Exec                 0x08001027   0xb8  Code  Gb  WM.o [3]
+WM_ForEachDesc          0x0800ac47    0x4  Code  Gb  WM_ForEachDesc.o [3]
+WM_GetClientRect        0x08002ab1   0x12  Code  Gb  WM_GetClientRect.o [3]
+WM_GetClientRectEx      0x08002aaf    0x2  Code  Gb  WM_GetClientRect.o [3]
+WM_GetClientWindow      0x08009fa7   0x18  Code  Gb  WM_GetClientWindow.o [3]
+WM_GetDesktopWindow     0x08003d79   0x18  Code  Gb  WM_GetDesktopWindow.o [3]
+WM_GetDialogItem        0x080061a7   0x10  Code  Gb  WM_GetDialogItem.o [3]
+WM_GetFirstChild        0x08001d11    0xe  Code  Gb  WM_GetFirstChild.o [3]
+WM_GetFlags             0x0800a2bb   0x14  Code  Gb  WM_GetFlags.o [3]
+WM_GetFocussedWindow    0x08009fc1   0x14  Code  Gb  WM_GetFocussedWindow.o [3]
+WM_GetHasTrans          0x080114f9   0x1a  Code  Gb  WM_SetTrans.o [3]
+WM_GetId                0x0800849d   0x1e  Code  Gb  WM_GetId.o [3]
+WM_GetInsideRect        0x08005e7d    0xa  Code  Gb  WM_GetInsideRect.o [3]
+WM_GetInsideRectEx      0x08005e69   0x14  Code  Gb  WM_GetInsideRect.o [3]
+WM_GetInsideRectExScrollbar
+                        0x080088ff   0x8a  Code  Gb  WM_GetInsideRectExScrollbar.o [3]
+WM_GetOrgX              0x08008f3d    0x8  Code  Gb  WM_GetOrg.o [3]
+WM_GetOrgY              0x08008f45    0x8  Code  Gb  WM_GetOrg.o [3]
+WM_GetParent            0x08003717    0xe  Code  Gb  WM_GetParent.o [3]
+WM_GetScrollPartner     0x0800b68d   0x28  Code  Gb  WM_GetScrollPartner.o [3]
+WM_GetScrollbarH        0x08009141    0xc  Code  Gb  WM_GetScrollbar.o [3]
+WM_GetScrollbarV        0x0800914d    0xc  Code  Gb  WM_GetScrollbar.o [3]
+WM_GetWindowOrgX        0x08008f11   0x16  Code  Gb  WM_GetOrg.o [3]
+WM_GetWindowOrgY        0x08008f27   0x16  Code  Gb  WM_GetOrg.o [3]
+WM_GetWindowRect        0x0800a279   0x20  Code  Gb  WM_GetWindowRect.o [3]
+WM_GetWindowRectEx      0x0800a2a1   0x1a  Code  Gb  WM_GetWindowRect.o [3]
+WM_HideWindow           0x0800a54d   0x28  Code  Gb  WM_Hide.o [3]
+WM_Init                 0x080011a3   0xb2  Code  Gb  WM.o [3]
+WM_InvalidateRect       0x0800077d   0x76  Code  Gb  WM.o [3]
+WM_InvalidateWindow     0x080007f3    0x4  Code  Gb  WM.o [3]
+WM_InvalidateWindowAndDescs
+                        0x08006115   0x28  Code  Gb  WM_Show.o [3]
+WM_InvalidateWindowAndDescsEx
+                        0x080004a7   0x54  Code  Gb  WM.o [3]
+WM_IsFocussable         0x0800a991   0x20  Code  Gb  WM_IsFocussable.o [3]
+WM_IsWindow             0x08009d8b    0x4  Code  Gb  WM_IsWindow.o [3]
+WM_MULTIBUF__pAPI       0x20002368    0x4  Data  Gb  WM.o [3]
+WM_MoveWindow           0x0800ab53    0x2  Code  Gb  WM_Move.o [3]
+WM_NotifyParent         0x08001fc5   0x14  Code  Gb  WM_NotifyParent.o [3]
+WM_OnKey                0x08003c61   0x38  Code  Gb  WM_OnKey.o [3]
+WM_ResizeWindow         0x0800ab55   0xf2  Code  Gb  WM_ResizeWindow.o [3]
+WM_RestartTimer         0x08001f99   0x26  Code  Gb  WM_Timer.o [3]
+WM_SelectWindow         0x08000a2b   0x36  Code  Gb  WM.o [3]
+WM_SendMessage          0x08000749    0xa  Code  Gb  WM.o [3]
+WM_SendMessageNoPara    0x080026a1    0x4  Code  Gb  WM_SendMessageNoPara.o [3]
+WM_SendToParent         0x08002acd   0x1c  Code  Gb  WM_SendToParent.o [3]
+WM_SetCapture           0x0800b65b   0x24  Code  Gb  WM_SetCapture.o [3]
+WM_SetDefault           0x08000cad   0x12  Code  Gb  WM.o [3]
+WM_SetFocus             0x08009d91   0x7a  Code  Gb  WM_SetFocus.o [3]
+WM_SetFocusOnNextChild  0x08009f29   0x10  Code  Gb  WM_SetFocusOnNextChild.o [3]
+WM_SetFocusOnPrevChild  0x08009e6f   0x38  Code  Gb  WM_SetFocusOnPrevChild.o [3]
+WM_SetScrollState       0x0800a249   0x1a  Code  Gb  WM_SetScrollState.o [3]
+WM_SetScrollbarH        0x080090b9    0x2  Code  Gb  WM_SetScrollbar.o [3]
+WM_SetScrollbarV        0x080090bb    0x2  Code  Gb  WM_SetScrollbar.o [3]
+WM_SetSize              0x08011a15   0x42  Code  Gb  WM_SetSize.o [3]
+WM_SetUserClipRect      0x08008179   0x18  Code  Gb  WM_SetUserClipRect.o [3]
+WM_ShowWindow           0x0800613d   0x2a  Code  Gb  WM_Show.o [3]
+WM__ActivateClipRect    0x08000303   0x3e  Code  Gb  WM.o [3]
+WM__AddCriticalHandle   0x08002c15    0xa  Code  Gb  WM_CriticalHandle.o [3]
+WM__CaptureReleaseAuto  0x2000258c    0x1  Data  Gb  WM.o [3]
+WM__Client2Screen       0x08000439   0x10  Code  Gb  WM.o [3]
+WM__ClipAtParentBorders
+                        0x080002c1   0x42  Code  Gb  WM.o [3]
+WM__CreateFlags         0x20002360    0x4  Data  Gb  WM.o [3]
+WM__DeleteAssocTimer    0x08001ed1   0x4c  Code  Gb  WM_Timer.o [3]
+WM__DeleteSecure        0x08001011   0x16  Code  Gb  WM.o [3]
+WM__DetachWindow        0x08000411   0x28  Code  Gb  WM.o [3]
+WM__FirstWin            0x20002350    0x4  Data  Gb  WM.o [3]
+WM__ForEachDesc         0x0800b5ef   0x2c  Code  Gb  WM__ForEachDesc.o [3]
+WM__GetClientRectEx     0x08002a8d   0x22  Code  Gb  WM_GetClientRect.o [3]
+WM__GetClientRectWin    0x08000765   0x18  Code  Gb  WM.o [3]
+WM__GetFirstSibling     0x080040cf   0x10  Code  Gb  WM__GetFirstSibling.o [3]
+WM__GetFocussedChild    0x0800a969   0x28  Code  Gb  WM__GetFocussedChild.o [3]
+WM__GetLastSibling      0x0800a94d   0x1a  Code  Gb  WM__GetLastSibling.o [3]
+WM__GetNextIVR          0x08000b9f   0x36  Code  Gb  WM.o [3]
+WM__GetPrevSibling      0x080036f5   0x22  Code  Gb  WM__GetPrevSibling.o [3]
+WM__GetTopLevelLayer    0x080009ff   0x18  Code  Gb  WM.o [3]
+WM__InitIVRSearch       0x08000bd5   0xd8  Code  Gb  WM.o [3]
+WM__InsertWindowIntoList
+                        0x08000341   0x96  Code  Gb  WM.o [3]
+WM__Invalidate1Abs      0x080002bd    0x4  Code  Gb  WM.o [3]
+WM__InvalidateDrawAndDescs
+                        0x08000465   0x42  Code  Gb  WM.o [3]
+WM__InvalidateParent    0x08000215   0x26  Code  Gb  WM.o [3]
+WM__InvalidateRect      0x08000505   0x70  Code  Gb  WM.o [3]
+WM__InvalidateRectEx    0x08000575    0x4  Code  Gb  WM.o [3]
+WM__IsAncestor          0x08009e25   0x24  Code  Gb  WM__IsAncestor.o [3]
+WM__IsAncestorOrSelf    0x08009e49    0xc  Code  Gb  WM__IsAncestor.o [3]
+WM__IsChild             0x0800b5cd   0x22  Code  Gb  WM__IsChild.o [3]
+WM__IsWindow            0x08000449   0x1c  Code  Gb  WM.o [3]
+WM__MoveWindow          0x0800aab1   0x90  Code  Gb  WM_Move.o [3]
+WM__NumInvalidWindows   0x20002330    0x2  Data  Gb  WM.o [3]
+WM__NumWindows          0x2000232e    0x2  Data  Gb  WM.o [3]
+WM__Paint               0x08000f2b   0x90  Code  Gb  WM.o [3]
+WM__Paint1              0x08000cbf   0x74  Code  Gb  WM.o [3]
+WM__PaintCallbackCnt    0x2000232c    0x1  Data  Gb  WM.o [3]
+WM__PaintWinAndOverlays
+                        0x08000e79   0x70  Code  Lc  WM.o [3]
+WM__RectIsNZ            0x080005a1   0x20  Code  Gb  WM.o [3]
+WM__ReleaseCapture      0x0800b635   0x26  Code  Lc  WM_SetCapture.o [3]
+WM__RemoveFromLinList   0x08000579   0x22  Code  Gb  WM.o [3]
+WM__RemoveWindowFromList
+                        0x080003d7   0x3a  Code  Gb  WM.o [3]
+WM__Screen2Client       0x0800a0ef   0x14  Code  Gb  WM__Screen2Client.o [3]
+WM__SelectTopLevelLayer
+                        0x08000a17   0x14  Code  Gb  WM.o [3]
+WM__SendMessage         0x08001db9   0x40  Code  Gb  WM__SendMessage.o [3]
+WM__SendMessageNoPara   0x08003b21   0x28  Code  Gb  WM__SendMessageNoPara.o [3]
+WM__SendMsgNoData       0x08000753   0x12  Code  Gb  WM.o [3]
+WM__SetScrollbarH       0x080090b3    0x6  Code  Gb  WM_SetScrollbar.o [3]
+WM__SetScrollbarV       0x080090ad    0x6  Code  Gb  WM_SetScrollbar.o [3]
+WM__TouchedLayer        0x2000234c    0x4  Data  Gb  WM.o [3]
+WM__TransWindowCnt      0x2000236c    0x4  Data  Gb  WM.o [3]
+WM__UpdateChildPositions
+                        0x0800a103   0xd2  Code  Gb  WM__UpdateChildPositions.o [3]
+WM__aBkColor            0x20002358    0x8  Data  Gb  WM.o [3]
+WM__aCHWinLast          0x2000244c   0x10  Data  Gb  WM_Touch.o [3]
+WM__aCHWinModal         0x20002528   0x10  Data  Gb  WM_Touch.o [3]
+WM__aCHWinMouseOver     0x2000245c   0x10  Data  Gb  WM_Touch.o [3]
+WM__ahCapture           0x2000233c    0x8  Data  Gb  WM.o [3]
+WM__ahDesktopWin        0x20002334    0x8  Data  Gb  WM.o [3]
+WM__ahWinFocus          0x20002344    0x8  Data  Gb  WM.o [3]
+WM__hATransWindow       0x20002370    0x4  Data  Gb  WM.o [3]
+WM__pFirstCriticalHandle
+                        0x20002354    0x4  Data  Gb  WM.o [3]
+WM_pfHandlePID          0x20002568    0x4  Data  Gb  GUI_Core.o [3]
+WM_pfPollPID            0x20002364    0x4  Data  Gb  WM.o [3]
+_Add                    0x0800a34f   0x2e  Code  Lc  GUI_FillPolygon.o [3]
+_AddFreeMemory          0x08001313   0x78  Code  Lc  GUI_Alloc.o [3]
+_Alloc                  0x08001697   0xe4  Code  Lc  GUI_Alloc.o [3]
+_AndMask                0x20000100    0x4  Data  Lc  LCD_AA.o [3]
+_CalcPositions          0x08010971  0x140  Code  Lc  SCROLLBAR_SkinClassic.o [3]
+_CalcSizeOfChar         0x0801240d    0x4  Code  Lc  GUI_UC_EncodeNone.o [3]
+_CheckYInterSect        0x0800a2f1   0x5e  Code  Lc  GUI_FillPolygon.o [3]
+_ClipContext            0x20002314   0x18  Data  Lc  WM.o [3]
+_Color2IndexBulk        0x080123bd   0x10  Code  Lc  GUICC_8888.o [3]
+_Color2IndexBulk_M8888I
+                        0x08012107   0x3a  Code  Lc  GUICC_M8888I.o [3]
+_Color2Index_0          0x08011fdd   0x50  Code  Lc  GUICC_0.o [3]
+_Color2Index_8888       0x080123b5    0x2  Code  Lc  GUICC_8888.o [3]
+_Color2Index_M8888I     0x080120dd    0x2  Code  Lc  GUICC_M8888I.o [3]
+_Config                 0x20002500    0xc  Data  Lc  GUI_Alloc.o [3]
+_Convert16              0x08003115   0x3a  Code  Lc  GUIDEV_WriteToActiveOpaque.o [3]
+_CopyBuffer             0x0800c267   0x52  Code  Lc  GUIDRV_Lin_32.o [3]
+_Create                 0x0800605d   0x26  Code  Lc  PROGBAR_Skin.o [3]
+_Create                 0x080118d3    0x2  Code  Lc  PROGBAR_SkinClassic.o [3]
+_Create                 0x08010c11    0xe  Code  Lc  SCROLLBAR_SkinClassic.o [3]
+_CreateStaticDevice     0x080118e1  0x10c  Code  Lc  GUIDEV_StaticDevices.o [3]
+_DeleteTimer            0x0800ad49   0x1e  Code  Lc  SCROLLBAR.o [3]
+_DeleteWindows          0x20002378    0x4  Data  Lc  WM.o [3]
+_DesktopHandle2Index    0x080001ad   0x1e  Code  Lc  WM.o [3]
+_DispFloatFix           0x080091a5   0x3e  Code  Lc  GUI_Valf.o [3]
+_DispFloatMin           0x08009221   0xf4  Code  Lc  GUI_Valf.o [3]
+_DispLine               0x08009b77   0x64  Code  Lc  GUI_CharLine.o [3]
+_DrawBackground         0x080110b1   0xf6  Code  Lc  PROGBAR_SkinFlex.o [3]
+_DrawBitLine1BPP        0x0800e83b  0x102  Code  Lc  GUIDEV_32.o [3]
+_DrawBitLine1BPP        0x0800c59b   0xf4  Code  Lc  GUIDRV_Lin_32.o [3]
+_DrawBitLine1BPP        0x08010551   0xce  Code  Lc  LCD_RotateCCW.o [3]
+_DrawBitLine2BPP        0x0800e93d   0xdc  Code  Lc  GUIDEV_32.o [3]
+_DrawBitLine2BPP        0x0800c68f   0x96  Code  Lc  GUIDRV_Lin_32.o [3]
+_DrawBitLine2BPP        0x08010641   0x5e  Code  Lc  LCD_RotateCCW.o [3]
+_DrawBitLine32BPP_DDB   0x0800e781   0x7c  Code  Lc  GUIDEV_32.o [3]
+_DrawBitLine4BPP        0x0800ea27  0x140  Code  Lc  GUIDEV_32.o [3]
+_DrawBitLine4BPP        0x0800c725   0x96  Code  Lc  GUIDRV_Lin_32.o [3]
+_DrawBitLine4BPP        0x0801069f   0x4a  Code  Lc  LCD_RotateCCW.o [3]
+_DrawBitLine8BPP        0x0800c7bb   0xf6  Code  Lc  GUIDRV_Lin_32.o [3]
+_DrawBitmap             0x0800eb73  0x236  Code  Lc  GUIDEV_32.o [3]
+_DrawBitmap             0x0800c8b1  0x126  Code  Lc  GUIDRV_Lin_32.o [3]
+_DrawBitmapCCW          0x08010783  0x1b2  Code  Lc  LCD_RotateCCW.o [3]
+_DrawBorder             0x0800663d  0x140  Code  Lc  GRAPH.o [3]
+_DrawDown               0x08001e9f    0x2  Code  Lc  WIDGET_Effect_None.o [3]
+_DrawDown               0x08011d1f   0x12  Code  Lc  WIDGET_Effect_3D.o [3]
+_DrawDownRect           0x08001ea3    0x2  Code  Lc  WIDGET_Effect_None.o [3]
+_DrawDownRect           0x08011c89   0x8e  Code  Lc  WIDGET_Effect_3D.o [3]
+_DrawFlat               0x08001ea7    0x2  Code  Lc  WIDGET_Effect_None.o [3]
+_DrawGradient           0x08010c3d  0x168  Code  Lc  GUI_DrawGradient.o [3]
+_DrawGraph              0x08009351  0x1aa  Code  Lc  GUI_DrawGraphEx.o [3]
+_DrawGrid               0x0800651d  0x120  Code  Lc  GRAPH.o [3]
+_DrawHLine              0x0800ee77    0xa  Code  Lc  GUIDEV_32.o [3]
+_DrawHLine              0x0800c589    0x6  Code  Lc  GUIDRV_Lin_32.o [3]
+_DrawNext               0x08000fbb   0x56  Code  Lc  WM.o [3]
+_DrawPart               0x0801179d   0x32  Code  Lc  PROGBAR_SkinClassic.o [3]
+_DrawUp                 0x08001ea1    0x2  Code  Lc  WIDGET_Effect_None.o [3]
+_DrawUpRect             0x08001ea5    0x2  Code  Lc  WIDGET_Effect_None.o [3]
+_DrawUpRect             0x08011c21   0x68  Code  Lc  WIDGET_Effect_3D.o [3]
+_DrawVLine              0x0800ee81   0xa0  Code  Lc  GUIDEV_32.o [3]
+_DrawVLine              0x0800c58f    0x6  Code  Lc  GUIDRV_Lin_32.o [3]
+_EffectRequiresRedraw   0x080084ed   0x5a  Code  Lc  WIDGET.o [3]
+_Encode                 0x08012411    0x6  Code  Lc  GUI_UC_EncodeNone.o [3]
+_EnlargeBlocks          0x0800154d   0x88  Code  Lc  GUI_Alloc.o [3]
+_FillByte               0x2000012a    0x1  Data  Lc  GUIDEV_StaticDevices.o [3]
+_FillRect               0x0800edd1   0xa6  Code  Lc  GUIDEV_32.o [3]
+_FillRect               0x0800c561   0x28  Code  Lc  GUIDRV_Lin_32.o [3]
+_FillRectOpt32          0x0800c423   0xf6  Code  Lc  GUIDRV_Lin_32.o [3]
+_FindNext_IVR           0x08000a61  0x12e  Code  Lc  WM.o [3]
+_Findx0                 0x08000669   0x70  Code  Lc  WM.o [3]
+_Findx1                 0x080006e1   0x5c  Code  Lc  WM.o [3]
+_Findy1                 0x080005c1   0x92  Code  Lc  WM.o [3]
+_GUI_USAGE_BM_Delete    0x08003025    0x4  Code  Lc  GUIDEV_UsageBM.o [3]
+_GetCharCode            0x08012405    0x4  Code  Lc  GUI_UC_EncodeNone.o [3]
+_GetCharSize            0x08012409    0x4  Code  Lc  GUI_UC_EncodeNone.o [3]
+_GetCharWrap            0x080116d1   0x2a  Code  Lc  GUI__Wrap.o [3]
+_GetDecs                0x080091e5   0x3c  Code  Lc  GUI_Valf.o [3]
+_GetDevData             0x0800efd3    0xe  Code  Lc  GUIDEV_32.o [3]
+_GetDevData             0x0800ca29    0xc  Code  Lc  GUIDRV_Lin_32.o [3]
+_GetDevFunc             0x0800efe1    0xc  Code  Lc  GUIDEV_32.o [3]
+_GetDevFunc             0x0800ca9d   0x98  Code  Lc  GUIDRV_Lin_32.o [3]
+_GetDevProp             0x0800eff9    0xc  Code  Lc  GUIDEV_32.o [3]
+_GetDevProp             0x08002d71   0x1e  Code  Lc  LCD_GetEx.o [3]
+_GetDevProp             0x0800c9ed   0x3c  Code  Lc  GUIDRV_Lin_32.o [3]
+_GetDialogItem          0x08006167   0x40  Code  Lc  WM_GetDialogItem.o [3]
+_GetDialogItem          0x080090f7   0x4a  Code  Lc  WM_GetScrollbar.o [3]
+_GetIndexMask_0         0x0801204b   0x52  Code  Lc  GUICC_0.o [3]
+_GetIndexMask_8888      0x080123b7    0x6  Code  Lc  GUICC_8888.o [3]
+_GetIndexMask_M8888I    0x08012101    0x6  Code  Lc  GUICC_M8888I.o [3]
+_GetMaxValue            0x08002d8f   0x1e  Code  Lc  LCD_GetEx.o [3]
+_GetMinIndex            0x080012b9   0x18  Code  Lc  GUI_Alloc.o [3]
+_GetNextChild           0x08009ea9   0x22  Code  Lc  WM_SetFocusOnNextChild.o [3]
+_GetParams              0x08006785   0x1e  Code  Lc  GRAPH.o [3]
+_GetPixelIndex          0x0800ef8f    0xe  Code  Lc  GUIDEV_32.o [3]
+_GetPixelIndex          0x0800c52b   0x10  Code  Lc  GUIDRV_Lin_32.o [3]
+_GetPos                 0x0800c1af   0x14  Code  Lc  GUIDRV_Lin_32.o [3]
+_GetPrevChild           0x08009e55   0x1a  Code  Lc  WM_SetFocusOnPrevChild.o [3]
+_GetRect                0x0800ef9d   0x30  Code  Lc  GUIDEV_32.o [3]
+_GetRect                0x0800c16d   0x16  Code  Lc  GUIDRV_Lin_32.o [3]
+_GetWordWrap            0x08011675   0x5c  Code  Lc  GUI__Wrap.o [3]
+_GetpfSetPixel          0x08010521   0x30  Code  Lc  LCD_RotateCCW.o [3]
+_HL_APIList             0x08002a84    0x8  Data  Lc  GUI_Core.o [3]
+_IncPointer             0x080027e5   0x18  Code  Lc  GUI_OnKey.o [3]
+_Index2ColorBulk        0x080123cd   0x10  Code  Lc  GUICC_8888.o [3]
+_Index2ColorBulk_M8888I
+                        0x08012141   0x3a  Code  Lc  GUICC_M8888I.o [3]
+_Index2Color_0          0x0801202d   0x1e  Code  Lc  GUICC_0.o [3]
+_Index2Color_M8888I     0x080120df    0x2  Code  Lc  GUICC_M8888I.o [3]
+_Init                   0x0800c1ff   0x18  Code  Lc  GUIDRV_Lin_32.o [3]
+_InitOnce               0x080015d5   0xa2  Code  Lc  GUI_Alloc.o [3]
+_InitOnce               0x0800c149   0x24  Code  Lc  GUIDRV_Lin_32.o [3]
+_Invalidate1Abs         0x0800023b   0x82  Code  Lc  WM.o [3]
+_InvalidateNewItem      0x0800721d   0x68  Code  Lc  GRAPH_DATA_YT.o [3]
+_IsInited               0x2000232d    0x1  Data  Lc  WM.o [3]
+_IsInitialized          0x20002538    0x4  Data  Lc  GUI_Core.o [3]
+_IsInitialized          0x200024d8    0x4  Data  Lc  GUI__Alpha.o [3]
+_IsInitialized          0x2000251c    0x4  Data  Lc  GUI_Timer.o [3]
+_Key                    0x200000e0    0x4  Data  Lc  GUI_OnKey.o [3]
+_Link                   0x0800376d   0x86  Code  Lc  GUI_Timer.o [3]
+_Log2VisBuffered        0x08009b75    0x2  Code  Lc  GUI_CharLine.o [3]
+_ManageScrollBars       0x080069dd   0xcc  Code  Lc  GRAPH.o [3]
+_MoveDescendents        0x0800aa51   0x60  Code  Lc  WM_Move.o [3]
+_NextDrawWin            0x20002374    0x4  Data  Lc  WM.o [3]
+_NumColors              0x200000c8    0x4  Data  Lc  LCD_Color.o [3]
+_Off                    0x0800c221    0xa  Code  Lc  GUIDRV_Lin_32.o [3]
+_On                     0x0800c217    0xa  Code  Lc  GUIDRV_Lin_32.o [3]
+_OnDelete               0x0800694f   0x8e  Code  Lc  GRAPH.o [3]
+_OnDelete               0x080071f7   0x26  Code  Lc  GRAPH_DATA_YT.o [3]
+_OnExit                 0x0800151b   0x32  Code  Lc  GUI_Alloc.o [3]
+_OnExit                 0x080028e9   0x22  Code  Lc  GUI_Core.o [3]
+_OnExit                 0x08001187   0x1c  Code  Lc  WM.o [3]
+_OnExit                 0x08003a11   0x10  Code  Lc  LCD_Color.o [3]
+_OnExit                 0x0800f081   0x24  Code  Lc  GUI__Alpha.o [3]
+_OnExit                 0x08003845    0xc  Code  Lc  GUI_Timer.o [3]
+_OnPaint                0x080067a3  0x184  Code  Lc  GRAPH.o [3]
+_OnPaint                0x08007119   0xde  Code  Lc  GRAPH_DATA_YT.o [3]
+_OnPaint                0x0800700b   0x3e  Code  Lc  GRAPH_SCALE.o [3]
+_OnPaintHorz            0x08006f2b   0xc6  Code  Lc  GRAPH_SCALE.o [3]
+_OnPaintVert            0x08006e61   0xca  Code  Lc  GRAPH_SCALE.o [3]
+_OnScrollValueChanged   0x08006aa9   0x34  Code  Lc  GRAPH.o [3]
+_OnTouch                0x0800ad6d  0x1d8  Code  Lc  SCROLLBAR.o [3]
+_Paint                  0x08005f39  0x104  Code  Lc  PROGBAR_Skin.o [3]
+_Paint                  0x080117cf   0xe6  Code  Lc  PROGBAR_SkinClassic.o [3]
+_Paint                  0x08010ab1  0x118  Code  Lc  SCROLLBAR_SkinClassic.o [3]
+_Paint1                 0x08000d3f   0x1e  Code  Lc  WM.o [3]
+_Paint1Trans            0x08000d5d   0x7c  Code  Lc  WM.o [3]
+_PaintTransChildren     0x08000de7   0x8c  Code  Lc  WM.o [3]
+_Props                  0x2000001c   0x28  Data  Lc  PROGBAR_SkinFlex.o [3]
+_Props                  0x2000009c    0x8  Data  Gb  GRAPH_SCALE.o [3]
+_PushFreeBlock          0x08001677   0x20  Code  Lc  GUI_Alloc.o [3]
+_ReadRect               0x0800ca35   0x32  Code  Lc  GUIDRV_Lin_32.o [3]
+_Rect2TextRect          0x080106e9   0x1e  Code  Lc  LCD_RotateCCW.o [3]
+_RemoveFreeBlock        0x080012e1   0x32  Code  Lc  GUI_Alloc.o [3]
+_RemoveHoles            0x0800138b   0x94  Code  Lc  GUI_Alloc.o [3]
+_RoundHalfUp            0x0800915d   0x3c  Code  Lc  GUI_Valf.o [3]
+_SetAlpha               0x0800c1c3   0x1e  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetAlphaMode           0x0800c22b    0xc  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetBkColor             0x08001ffd   0x1c  Code  Lc  LCD.o [3]
+_SetChroma              0x0800c247   0x20  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetChromaMode          0x0800c237    0xa  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetClipRectUserIntersect
+                        0x080001cb   0x4a  Code  Lc  WM.o [3]
+_SetColor               0x08002019   0x1c  Code  Lc  LCD.o [3]
+_SetColorAPI            0x0801256c    0xc  Data  Lc  LCD.o [3]
+_SetDevFunc             0x0800ca67   0x34  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetDrawMode            0x08002035   0x24  Code  Lc  LCD.o [3]
+_SetFocusOnNextChild    0x08009ecb   0x58  Code  Lc  WM_SetFocusOnNextChild.o [3]
+_SetLineColor           0x08008ad3   0x78  Code  Lc  GUI_DrawLine.o [3]
+_SetOrg                 0x0800f005    0x8  Code  Lc  GUIDEV_32.o [3]
+_SetOrg                 0x0800c2e9   0x88  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetPixelIndex          0x0800ef2b   0x14  Code  Lc  GUIDEV_32.o [3]
+_SetPixelIndex          0x0800c519   0x12  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetPos                 0x0800c183   0x2c  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetRotation            0x08005e8d   0x1c  Code  Lc  GUI_DispStringInRectEx.o [3]
+_SetScrollbar           0x0800907b   0x32  Code  Lc  WM_SetScrollbar.o [3]
+_SetSize                0x0800c3dd   0x46  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetVRAMAddr            0x0800c395   0x20  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetVSize               0x0800c3b5   0x20  Code  Lc  GUIDRV_Lin_32.o [3]
+_SetValue               0x080061b9   0x32  Code  Lc  PROGBAR.o [3]
+_SetVis                 0x0800c1e1   0x1e  Code  Lc  GUIDRV_Lin_32.o [3]
+_ShowBuffer             0x0800c2b9   0x1c  Code  Lc  GUIDRV_Lin_32.o [3]
+_SuppressMixing         0x200024bc    0x4  Data  Lc  GUI_SetAlpha.o [3]
+_SwapInt                0x080089ed    0xa  Code  Lc  GUI_DrawLine.o [3]
+_TestRAM                0x0800141f   0xfc  Code  Lc  GUI_Alloc.o [3]
+_TransformPointCCW      0x08010707   0x7c  Code  Lc  LCD_RotateCCW.o [3]
+_Unlink                 0x0800372d   0x40  Code  Lc  GUI_Timer.o [3]
+_UnlinkDevice           0x08002ae9   0x2a  Code  Lc  GUI_Device.o [3]
+_VXSizeMax              0x200024d4    0x4  Data  Lc  GUI__Alpha.o [3]
+_WrapGetNumCharsDisp    0x080116fb   0x2c  Code  Lc  GUI__Wrap.o [3]
+_WriteTagData           0x080012d1   0x10  Code  Lc  GUI_Alloc.o [3]
+_WriteToActiveOpaque_8  0x0800314f  0x264  Code  Lc  GUIDEV_WriteToActiveOpaque.o [3]
+_WriteToActiveOpaque_HT
+                        0x08003403  0x240  Code  Lc  GUIDEV_WriteToActiveOpaque.o [3]
+_XY2PTR                 0x0800e7fd   0x36  Code  Lc  GUIDEV_32.o [3]
+_XorPixel               0x0800ef47   0x1a  Code  Lc  GUIDEV_32.o [3]
+_XorPixel               0x0800c53b   0x26  Code  Lc  GUIDRV_Lin_32.o [3]
+__aeabi_cdcmpeq         0x0800b405         Code  Gb  DblCmpEq.o [5]
+__aeabi_cdcmple         0x0800a779         Code  Gb  DblCmpLe.o [5]
+__aeabi_cdrcmple        0x0800a7a9         Code  Gb  DblCmpGe.o [5]
+__aeabi_d2f             0x0800a655         Code  Gb  DblToFlt.o [5]
+__aeabi_d2iz            0x08007889         Code  Gb  DblToI32.o [5]
+__aeabi_dadd            0x080077a1         Code  Gb  DblAdd.o [5]
+__aeabi_ddiv            0x08007539         Code  Gb  DblDiv.o [5]
+__aeabi_dmul            0x08007395         Code  Gb  DblMul.o [5]
+__aeabi_dsub            0x08009995         Code  Gb  DblSub.o [5]
+__aeabi_errno_addr      0x0800a7d9    0x6  Code  Gb  errno.o [4]
+__aeabi_f2d             0x0800a6e5         Code  Gb  FltToDbl.o [5]
+__aeabi_i2d             0x08007365         Code  Gb  I32ToDbl.o [5]
+__aeabi_memclr          0x08002c9d         Code  Gb  ABImemclr.o [6]
+__aeabi_memclr4         0x08003725         Code  Gb  ABImemclr4.o [6]
+__aeabi_memset          0x08003dc1         Code  Gb  ABImemset.o [6]
+__aeabi_ui2d            0x08007379         Code  Gb  I32ToDbl.o [5]
+__cmain                 0x080124a5         Code  Gb  cmain.o [6]
+__exit                  0x080124d5   0x14  Code  Gb  exit.o [7]
+__iar_Dint              0x0800b38b   0x7a  Code  Gb  xdint.o [5]
+__iar_Errno             0x20000124    0x4  Data  Gb  errno.o [4]
+__iar_Memset            0x08003dc1         Code  Gb  ABImemset.o [6]
+__iar_Memset4_word      0x080040e1         Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x080040e1         Code  Gb  ABImemset48.o [6]
+__iar_Memset_word       0x08003dc9         Code  Gb  ABImemset.o [6]
+__iar_Quad              0x0800a7e5  0x12c  Code  Gb  xquad.o [5]
+__iar_Sin               0x08009545  0x3b2  Code  Gb  xsin.o [5]
+__iar_ceil              0x0800a585         Code  Gb  ceil.o [5]
+__iar_ceill             0x0800a585         Code  Gb  ceil.o [5]
+__iar_d2uiz             0x080078b5         Code  Gb  DblToI32.o [5]
+__iar_dadd              0x080077b5         Code  Gb  DblAdd.o [5]
+__iar_data_init3        0x080123dd   0x28  Code  Gb  data_init.o [6]
+__iar_dlib_perthread_access
+                        0x0800b389    0x2  Code  Gb  xtls.o [4]
+__iar_dsub              0x080099a9         Code  Gb  DblSub.o [5]
+__iar_dsubStart         0x080099bb         Code  Gb  DblSub.o [5]
+__iar_edom              0x0800b6b5         Code  Gb  iarEdom.o [6]
+__iar_floor             0x0800a5f5         Code  Gb  floor.o [5]
+__iar_floorl            0x0800a5f5         Code  Gb  floor.o [5]
+__iar_fmod              0x0800b425         Code  Gb  fmod.o [5]
+__iar_fmodl             0x0800b425         Code  Gb  fmod.o [5]
+__iar_init_vfp          0x08012429         Code  Gb  fpinit_M.o [5]
+__iar_packbits_init_single3
+                        0x08012349   0x38  Code  Gb  packbits_init_single.o [6]
+__iar_program_start     0x08012585         Code  Gb  cstartup_M.o [6]
+__iar_ui2d              0x0800737d         Code  Gb  I32ToDbl.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x08002cf9         Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy4
+                        0x08002d19         Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy8
+                        0x08002d19         Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memmove
+                        0x08002c25         Code  Gb  ABImemmove_unaligned.o [6]
+__iar_unaligned___aeabi_memmove4
+                        0x08002c25         Code  Gb  ABImemmove_unaligned.o [6]
+__iar_unaligned___aeabi_memmove8
+                        0x08002c25         Code  Gb  ABImemmove_unaligned.o [6]
+__iar_unaligned_strcpy  0x0800aa0d         Code  Gb  strcpy_unaligned.o [6]
+__iar_vfp_ceil          0x0800a575         Code  Gb  ceil.o [5]
+__iar_vfp_ceill         0x0800a575         Code  Gb  ceil.o [5]
+__iar_vfp_floor         0x0800a5e5         Code  Gb  floor.o [5]
+__iar_vfp_floorl        0x0800a5e5         Code  Gb  floor.o [5]
+__iar_vfp_sin           0x0800778f   0x12  Code  Gb  sin.o [5]
+__iar_zero_init3        0x0801225d   0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x080124bf    0x4  Code  Gb  low_level_init.o [4]
+__vector_table          0x08000000         Data  Gb  startup_stm32f429xx.o [1]
+_aAlpha                 0x200024a8    0x2  Data  Lc  GUI_SetAlpha.o [3]
+_aColor                 0x20000110   0x14  Data  Lc  WIDGET_Effect_3D.o [3]
+_aDialogCreate          0x08012180   0x70  Data  Lc  WindowDLG.o [1]
+_aState                 0x200023dc   0x58  Data  Lc  GUI_OnKey.o [3]
+_aStateLast             0x20002434   0x18  Data  Lc  WM_Touch.o [3]
+_aX                     0x200024e4   0x18  Data  Lc  GUI_FillPolygon.o [3]
+_apDevice               0x200024b4    0x8  Data  Lc  GUI_SetAlpha.o [3]
+_atan2                  0x08008a4f   0x84  Code  Lc  GUI_DrawLine.o [3]
+_call_main              0x080124b1         Code  Gb  cmain.o [6]
+_cbDialog               0x080060a1   0x42  Code  Lc  WindowDLG.o [1]
+_cbInvalidateOne        0x0800a1d5    0x4  Code  Lc  WM_BringToTop.o [3]
+_cbPaintMemDev          0x08000ee9   0x3a  Code  Lc  WM.o [3]
+_cbTimer                0x08001ea9   0x28  Code  Lc  WM_Timer.o [3]
+_exit                   0x080124c9         Code  Gb  cexit.o [6]
+_hActiveTimer           0x20002518    0x4  Data  Lc  GUI_Timer.o [3]
+_hFirstTimer            0x20002514    0x4  Data  Lc  GUI_Timer.o [3]
+_main                   0x080124bb         Code  Gb  cmain.o [6]
+_pColor                 0x200024b0    0x4  Data  Lc  GUI_SetAlpha.o [3]
+_pConvert               0x200024cc    0x4  Data  Lc  GUI__Alpha.o [3]
+_pCurrent               0x200024c8    0x4  Data  Lc  GUI__Alpha.o [3]
+_pData                  0x200024d0    0x4  Data  Lc  GUI__Alpha.o [3]
+_pEffectDefault         0x200000a4    0x4  Data  Gb  WIDGET.o [3]
+_pFirstExit             0x20002574    0x4  Data  Lc  GUI_Core.o [3]
+_pIndex                 0x200024ac    0x4  Data  Lc  GUI_SetAlpha.o [3]
+_pReadKey               0x200000d8    0x4  Data  Lc  GUI_OnKey.o [3]
+_pWriteKey              0x200000dc    0x4  Data  Lc  GUI_OnKey.o [3]
+_pcbMotion              0x2000246c    0x4  Data  Lc  WM_Touch.o [3]
+_pcbSetAlpha            0x20002584    0x4  Data  Lc  GUIDEV_Banding.o [3]
+_pcbToolTip             0x20002470    0x4  Data  Lc  WM_Touch.o [3]
+_pfAlphaBlending        0x20002580    0x4  Data  Lc  GUI__Alpha.o [3]
+_pfColor2IndexBulk      0x20002544    0x4  Data  Lc  GUICC_M8888I.o [3]
+_pfIndex2ColorBulk      0x20002548    0x4  Data  Lc  GUICC_M8888I.o [3]
+_pfSignalEvent          0x2000257c    0x4  Data  Lc  GUI_WaitEvent.o [3]
+aID                     0x0800f00c   0x40  Data  Lc  GUIDEV_32.o [3]
+aSin                    0x08008e7c   0x24  Data  Lc  GUI_DrawLine.o [3]
+aTan                    0x08008ea0   0x24  Data  Gb  GUI_DrawLine.o [3]
+acF8x15B_ASCII_100      0x0800d978   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_101      0x0800d988   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_102      0x0800d998   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_103      0x0800d9a8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_104      0x0800d9b8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_105      0x0800d9c8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_106      0x0800d9d8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_107      0x0800d9e8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_108      0x0800d9f8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_109      0x0800da08   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_110      0x0800da18   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_111      0x0800da28   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_112      0x0800da38   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_113      0x0800da48   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_114      0x0800da58   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_115      0x0800da68   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_116      0x0800da78   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_117      0x0800da88   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_118      0x0800da98   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_119      0x0800daa8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_120      0x0800dab8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_121      0x0800dac8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_122      0x0800dad8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_123      0x0800dae8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_124      0x0800daf8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_125      0x0800db08   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_126      0x0800db18   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_127      0x0800db28   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_32       0x0800d538   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_33       0x0800d548   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_34       0x0800d558   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_35       0x0800d568   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_36       0x0800d578   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_37       0x0800d588   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_38       0x0800d598   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_39       0x0800d5a8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_40       0x0800d5b8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_41       0x0800d5c8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_42       0x0800d5d8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_43       0x0800d5e8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_44       0x0800d5f8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_45       0x0800d608   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_46       0x0800d618   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_47       0x0800d628   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_48       0x0800d638   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_49       0x0800d648   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_50       0x0800d658   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_51       0x0800d668   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_52       0x0800d678   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_53       0x0800d688   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_54       0x0800d698   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_55       0x0800d6a8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_56       0x0800d6b8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_57       0x0800d6c8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_58       0x0800d6d8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_59       0x0800d6e8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_60       0x0800d6f8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_61       0x0800d708   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_62       0x0800d718   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_63       0x0800d728   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_64       0x0800d738   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_65       0x0800d748   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_66       0x0800d758   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_67       0x0800d768   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_68       0x0800d778   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_69       0x0800d788   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_70       0x0800d798   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_71       0x0800d7a8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_72       0x0800d7b8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_73       0x0800d7c8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_74       0x0800d7d8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_75       0x0800d7e8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_76       0x0800d7f8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_77       0x0800d808   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_78       0x0800d818   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_79       0x0800d828   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_80       0x0800d838   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_81       0x0800d848   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_82       0x0800d858   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_83       0x0800d868   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_84       0x0800d878   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_85       0x0800d888   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_86       0x0800d898   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_87       0x0800d8a8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_88       0x0800d8b8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_89       0x0800d8c8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_90       0x0800d8d8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_91       0x0800d8e8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_92       0x0800d8f8   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_93       0x0800d908   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_94       0x0800d918   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_95       0x0800d928   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_96       0x0800d938   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_97       0x0800d948   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_98       0x0800d958   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acF8x15B_ASCII_99       0x0800d968   0x10  Data  Lc  F8x15B_ASCII.o [3]
+acFont13ASCII_0020      0x0800de68   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0021      0x0800de78   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0022      0x0800de88   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0023      0x0800de98   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0024      0x0800dea8   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0025      0x0800deb8   0x1c  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0026      0x0800ded4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0027      0x0800dee4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0028      0x0800def4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0029      0x0800df04   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_002A      0x0800df14   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_002B      0x0800df24   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_002C      0x0800df34   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_002D      0x0800df44   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_002E      0x0800df54   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_002F      0x0800df64   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0030      0x0800df74   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0031      0x0800df84   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0032      0x0800df94   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0033      0x0800dfa4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0034      0x0800dfb4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0035      0x0800dfc4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0036      0x0800dfd4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0037      0x0800dfe4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0038      0x0800dff4   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0039      0x0800e004   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_003A      0x0800e014   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_003B      0x0800e024   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_003C      0x0800e034   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_003D      0x0800e044   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_003E      0x0800e054   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_003F      0x0800e064   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0040      0x0800e074   0x1c  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0041      0x0800e090   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0042      0x0800e0a0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0043      0x0800e0b0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0044      0x0800e0c0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0045      0x0800e0d0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0046      0x0800e0e0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0047      0x0800e0f0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0048      0x0800e100   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0049      0x0800e110   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_004A      0x0800e120   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_004B      0x0800e130   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_004C      0x0800e140   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_004D      0x0800e150   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_004E      0x0800e160   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_004F      0x0800e170   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0050      0x0800e180   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0051      0x0800e190   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0052      0x0800e1a0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0053      0x0800e1b0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0054      0x0800e1c0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0055      0x0800e1d0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0056      0x0800e1e0   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0057      0x0800e1f0   0x1c  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0058      0x0800e20c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0059      0x0800e21c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_005A      0x0800e22c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_005B      0x0800e23c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_005C      0x0800e24c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_005D      0x0800e25c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_005E      0x0800e26c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_005F      0x0800e27c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0060      0x0800e28c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0061      0x0800e29c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0062      0x0800e2ac   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0063      0x0800e2bc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0064      0x0800e2cc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0065      0x0800e2dc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0066      0x0800e2ec   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0067      0x0800e2fc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0068      0x0800e30c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0069      0x0800e31c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_006A      0x0800e32c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_006B      0x0800e33c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_006C      0x0800e34c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_006D      0x0800e35c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_006E      0x0800e36c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_006F      0x0800e37c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0070      0x0800e38c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0071      0x0800e39c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0072      0x0800e3ac   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0073      0x0800e3bc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0074      0x0800e3cc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0075      0x0800e3dc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0076      0x0800e3ec   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0077      0x0800e3fc   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0078      0x0800e40c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_0079      0x0800e41c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_007A      0x0800e42c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_007B      0x0800e43c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_007C      0x0800e44c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_007D      0x0800e45c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13ASCII_007E      0x0800e46c   0x10  Data  Lc  F13_ASCII.o [3]
+acFont13_1_00A0         0x0800cbb4   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A1         0x0800cbc4   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A2         0x0800cbd4   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A3         0x0800cbe4   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A4         0x0800cbf4   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A5         0x0800cc04   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A6         0x0800cc14   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A7         0x0800cc24   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A8         0x0800cc34   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00A9         0x0800cc44   0x1c  Data  Lc  F13_1.o [3]
+acFont13_1_00AA         0x0800cc60   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00AB         0x0800cc70   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00AC         0x0800cc80   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00AD         0x0800cc90   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00AE         0x0800cca0   0x1c  Data  Lc  F13_1.o [3]
+acFont13_1_00AF         0x0800ccbc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B0         0x0800cccc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B1         0x0800ccdc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B2         0x0800ccec   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B3         0x0800ccfc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B4         0x0800cd0c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B5         0x0800cd1c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B6         0x0800cd2c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B7         0x0800cd3c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B8         0x0800cd4c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00B9         0x0800cd5c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00BA         0x0800cd6c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00BB         0x0800cd7c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00BC         0x0800cd8c   0x1c  Data  Lc  F13_1.o [3]
+acFont13_1_00BD         0x0800cda8   0x1c  Data  Lc  F13_1.o [3]
+acFont13_1_00BE         0x0800cdc4   0x1c  Data  Lc  F13_1.o [3]
+acFont13_1_00BF         0x0800cde0   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C0         0x0800cdf0   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C1         0x0800ce00   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C2         0x0800ce10   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C3         0x0800ce20   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C4         0x0800ce30   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C5         0x0800ce40   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C6         0x0800ce50   0x1c  Data  Lc  F13_1.o [3]
+acFont13_1_00C7         0x0800ce6c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C8         0x0800ce7c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00C9         0x0800ce8c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00CA         0x0800ce9c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00CB         0x0800ceac   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00CC         0x0800cebc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00CD         0x0800cecc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00CE         0x0800cedc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00CF         0x0800ceec   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D0         0x0800cefc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D1         0x0800cf0c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D2         0x0800cf1c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D3         0x0800cf2c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D4         0x0800cf3c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D5         0x0800cf4c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D6         0x0800cf5c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D7         0x0800cf6c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D8         0x0800cf7c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00D9         0x0800cf8c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00DA         0x0800cf9c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00DB         0x0800cfac   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00DC         0x0800cfbc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00DD         0x0800cfcc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00DE         0x0800cfdc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00DF         0x0800cfec   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E0         0x0800cffc   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E1         0x0800d00c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E2         0x0800d01c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E3         0x0800d02c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E4         0x0800d03c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E5         0x0800d04c   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E6         0x0800d05c   0x1c  Data  Lc  F13_1.o [3]
+acFont13_1_00E7         0x0800d078   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E8         0x0800d088   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00E9         0x0800d098   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00EA         0x0800d0a8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00EB         0x0800d0b8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00EC         0x0800d0c8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00ED         0x0800d0d8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00EE         0x0800d0e8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00EF         0x0800d0f8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F0         0x0800d108   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F1         0x0800d118   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F2         0x0800d128   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F3         0x0800d138   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F4         0x0800d148   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F5         0x0800d158   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F6         0x0800d168   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F7         0x0800d178   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F8         0x0800d188   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00F9         0x0800d198   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00FA         0x0800d1a8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00FB         0x0800d1b8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00FC         0x0800d1c8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00FD         0x0800d1d8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00FE         0x0800d1e8   0x10  Data  Lc  F13_1.o [3]
+acFont13_1_00FF         0x0800d1f8   0x10  Data  Lc  F13_1.o [3]
+acFont16B_ASCII_0020    0x0800b6c0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0021    0x0800b6d0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0022    0x0800b6e0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0023    0x0800b6f0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0024    0x0800b700   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0025    0x0800b710   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0026    0x0800b730   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0027    0x0800b750   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0028    0x0800b760   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0029    0x0800b770   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_002A    0x0800b780   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_002B    0x0800b790   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_002C    0x0800b7a0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_002D    0x0800b7b0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_002E    0x0800b7c0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_002F    0x0800b7d0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0030    0x0800b7e0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0031    0x0800b7f0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0032    0x0800b800   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0033    0x0800b810   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0034    0x0800b820   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0035    0x0800b830   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0036    0x0800b840   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0037    0x0800b850   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0038    0x0800b860   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0039    0x0800b870   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_003A    0x0800b880   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_003B    0x0800b890   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_003C    0x0800b8a0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_003D    0x0800b8b0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_003E    0x0800b8c0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_003F    0x0800b8d0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0040    0x0800b8e0   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0041    0x0800b900   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0042    0x0800b920   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0043    0x0800b940   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0044    0x0800b960   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0045    0x0800b980   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0046    0x0800b990   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0047    0x0800b9a0   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0048    0x0800b9c0   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0049    0x0800b9e0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_004A    0x0800b9f0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_004B    0x0800ba00   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_004C    0x0800ba20   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_004D    0x0800ba30   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_004E    0x0800ba50   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_004F    0x0800ba70   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0050    0x0800ba90   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0051    0x0800bab0   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0052    0x0800bad0   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0053    0x0800baf0   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0054    0x0800bb10   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0055    0x0800bb20   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0056    0x0800bb40   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0057    0x0800bb60   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0058    0x0800bb80   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0059    0x0800bba0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_005A    0x0800bbb0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_005B    0x0800bbc0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_005C    0x0800bbd0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_005D    0x0800bbe0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_005E    0x0800bbf0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_005F    0x0800bc00   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0060    0x0800bc10   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0061    0x0800bc20   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0062    0x0800bc30   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0063    0x0800bc40   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0064    0x0800bc50   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0065    0x0800bc60   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0066    0x0800bc70   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0067    0x0800bc80   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0068    0x0800bc90   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0069    0x0800bca0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_006A    0x0800bcb0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_006B    0x0800bcc0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_006C    0x0800bcd0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_006D    0x0800bce0   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_006E    0x0800bd00   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_006F    0x0800bd10   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0070    0x0800bd20   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0071    0x0800bd30   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0072    0x0800bd40   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0073    0x0800bd50   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0074    0x0800bd60   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0075    0x0800bd70   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0076    0x0800bd80   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0077    0x0800bd90   0x20  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0078    0x0800bdb0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_0079    0x0800bdc0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_007A    0x0800bdd0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_007B    0x0800bde0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_007C    0x0800bdf0   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_007D    0x0800be00   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont16B_ASCII_007E    0x0800be10   0x10  Data  Lc  F16B_ASCII.o [3]
+acFont8x10ASCII_0020    0x0800f658    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0021    0x0800f664    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0022    0x0800f670    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0023    0x0800f67c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0024    0x0800f688    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0025    0x0800f694    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0026    0x0800f6a0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0027    0x0800f6ac    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0028    0x0800f6b8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0029    0x0800f6c4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_002A    0x0800f6d0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_002B    0x0800f6dc    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_002C    0x0800f6e8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_002D    0x0800f6f4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_002E    0x0800f700    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_002F    0x0800f70c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0030    0x0800f718    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0031    0x0800f724    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0032    0x0800f730    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0033    0x0800f73c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0034    0x0800f748    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0035    0x0800f754    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0036    0x0800f760    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0037    0x0800f76c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0038    0x0800f778    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0039    0x0800f784    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_003A    0x0800f790    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_003B    0x0800f79c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_003C    0x0800f7a8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_003D    0x0800f7b4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_003E    0x0800f7c0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_003F    0x0800f7cc    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0040    0x0800f7d8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0041    0x0800f7e4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0042    0x0800f7f0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0043    0x0800f7fc    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0044    0x0800f808    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0045    0x0800f814    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0046    0x0800f820    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0047    0x0800f82c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0048    0x0800f838    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0049    0x0800f844    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_004A    0x0800f850    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_004B    0x0800f85c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_004C    0x0800f868    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_004D    0x0800f874    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_004E    0x0800f880    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_004F    0x0800f88c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0050    0x0800f898    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0051    0x0800f8a4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0052    0x0800f8b0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0053    0x0800f8bc    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0054    0x0800f8c8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0055    0x0800f8d4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0056    0x0800f8e0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0057    0x0800f8ec    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0058    0x0800f8f8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0059    0x0800f904    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_005A    0x0800f910    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_005B    0x0800f91c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_005C    0x0800f928    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_005D    0x0800f934    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_005E    0x0800f940    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_005F    0x0800f94c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0060    0x0800f958    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0061    0x0800f964    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0062    0x0800f970    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0063    0x0800f97c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0064    0x0800f988    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0065    0x0800f994    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0066    0x0800f9a0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0067    0x0800f9ac    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0068    0x0800f9b8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0069    0x0800f9c4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_006A    0x0800f9d0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_006B    0x0800f9dc    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_006C    0x0800f9e8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_006D    0x0800f9f4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_006E    0x0800fa00    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_006F    0x0800fa0c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0070    0x0800fa18    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0071    0x0800fa24    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0072    0x0800fa30    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0073    0x0800fa3c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0074    0x0800fa48    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0075    0x0800fa54    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0076    0x0800fa60    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0077    0x0800fa6c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0078    0x0800fa78    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_0079    0x0800fa84    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_007A    0x0800fa90    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_007B    0x0800fa9c    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_007C    0x0800faa8    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_007D    0x0800fab4    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_007E    0x0800fac0    0xc  Data  Lc  F8x10_ASCII.o [3]
+acFont8x10ASCII_007F    0x0800facc    0xc  Data  Lc  F8x10_ASCII.o [3]
+cbBackWin               0x080010df   0x4a  Code  Lc  WM.o [3]
+ceil                    0x0800a585         Code  Gb  ceil.o [5]
+ceill                   0x0800a585         Code  Gb  ceil.o [5]
+delay                   0x08005105    0xa  Code  Gb  stm32f4xx_hal_msp.o [1]
+emWin_LCD_Init          0x0800256d   0x8c  Code  Gb  LCD.o [3]
+exit                    0x080124c3    0x4  Code  Gb  exit.o [4]
+floor                   0x0800a5f5         Code  Gb  floor.o [5]
+floorl                  0x0800a5f5         Code  Gb  floor.o [5]
+fmod                    0x0800b425         Code  Gb  fmod.o [5]
+fmodl                   0x0800b425         Code  Gb  fmod.o [5]
+hltdc                   0x200021ec   0xa8  Data  Gb  main.o [1]
+hsdram1                 0x20002474   0x34  Data  Gb  main.o [1]
+hspi5                   0x20002384   0x58  Data  Gb  main.o [1]
+main                    0x08005171  0x1ca  Code  Gb  main.o [1]
+strlen                  0x0801163d         Code  Gb  strlen.o [6]
+uwTick                  0x2000255c    0x4  Data  Gb  stm32f4xx_hal.o [1]
+
+
+[1] = E:\STM32Porgram\TFT\EWARM\TFT-LCD\Obj
+[2] = command line
+[3] = STemWin522_CM4_IAR.a
+[4] = dl7M_tlf.a
+[5] = m7M_tls.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  61 308 bytes of readonly  code memory
+  14 506 bytes of readonly  data memory
+   9 608 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
